@@ -51,10 +51,11 @@ article img {
 }
 
 /* Engineering/rigging diagrams are dark line art on transparent background.
-   In dark mode they disappear — give them a light backdrop. */
-[data-theme='dark'] article img[src*="/img/rigging-"],
-[data-theme='dark'] article img[src*="/img/frame-"],
-[data-theme='dark'] article img[src*="/img/subcam-"] {
+   In dark mode they disappear — give them a light backdrop.
+   Docusaurus rewrites image paths to /assets/images/<hash>, so match by filename stem. */
+[data-theme='dark'] article img[src*="rigging-"],
+[data-theme='dark'] article img[src*="frame-"],
+[data-theme='dark'] article img[src*="subcam-"] {
   background-color: #ffffff;
   padding: 8px;
 }
