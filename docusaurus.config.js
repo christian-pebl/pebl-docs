@@ -76,7 +76,6 @@ const config = {
               {label: 'Mooring Guide', to: '/'},
               {label: 'Camera Configuration', to: '/camera-configuration'},
               {label: 'Frame Configurations', to: '/frame-configurations'},
-              {label: 'Mooring Examples', to: '/moorings'},
             ],
           },
           {

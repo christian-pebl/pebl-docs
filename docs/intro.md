@@ -20,11 +20,10 @@ Use the sidebar (or the cards below) to jump to the section you need.
 ## What's in this guide
 
 * **[Camera Configuration](./camera-configuration.md)** — how the SubCam mounts on the frame and how field of view, slant range and reach are configured.
-* **[Frame Configurations](./frame-configurations.md)** — the three exposure-rated Microlander frame builds (Low / Med / High) with weights, tube diameters and prices.
-* **[Mooring Examples](./moorings/index.md)** — full rigging diagrams and bills of materials for each exposure rating:
-  * [Low Exposure](./moorings/low-exposure.md) — 5 m depth, &lt;2 m wave / &lt;1 m/s
-  * [Med Exposure](./moorings/med-exposure.md) — 10 m depth, &lt;5 m wave / &lt;2 m/s
-  * [High Exposure](./moorings/high-exposure.md) — 20 m depth, &lt;10 m wave / &lt;4 m/s
+* **[Frame Configurations](./frame-configurations/index.md)** — the three exposure-rated Microlander frame builds (Low / Med / High) with weights, tube diameters, prices and full mooring examples:
+  * [Low Exposure](./frame-configurations/low-exposure.md) — 5 m depth, &lt;2 m wave / &lt;1 m/s
+  * [Med Exposure](./frame-configurations/med-exposure.md) — 10 m depth, &lt;5 m wave / &lt;2 m/s
+  * [High Exposure](./frame-configurations/high-exposure.md) — 20 m depth, &lt;10 m wave / &lt;4 m/s
 
 ## Exposure ratings at a glance
 

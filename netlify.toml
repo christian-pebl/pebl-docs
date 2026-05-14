@@ -10,3 +10,19 @@
   to = "/:splat"
   status = 301
   force = true
+
+# Mooring Examples merged into Frame Configurations
+[[redirects]]
+  from = "/moorings"
+  to = "/frame-configurations/"
+  status = 301
+
+[[redirects]]
+  from = "/moorings/"
+  to = "/frame-configurations/"
+  status = 301
+
+[[redirects]]
+  from = "/moorings/*"
+  to = "/frame-configurations/:splat"
+  status = 301
