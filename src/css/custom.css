@@ -1,0 +1,49 @@
+/**
+ * PEBL brand palette
+ *   #2B7A78  Dark Teal (primary)
+ *   #3AAFA9  Teal (accent)
+ *   #17252A  Navy (heading)
+ *   #DEF2F1  Light Teal (tint)
+ */
+
+:root {
+  --ifm-color-primary: #2B7A78;
+  --ifm-color-primary-dark: #266e6c;
+  --ifm-color-primary-darker: #246865;
+  --ifm-color-primary-darkest: #1d5553;
+  --ifm-color-primary-light: #308684;
+  --ifm-color-primary-lighter: #338c8a;
+  --ifm-color-primary-lightest: #3b9b99;
+
+  --ifm-heading-color: #17252A;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+
+  /* Hint / admonition tint */
+  --ifm-color-info-contrast-background: #DEF2F1;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #3AAFA9;
+  --ifm-color-primary-dark: #2fa19b;
+  --ifm-color-primary-darker: #2c9893;
+  --ifm-color-primary-darkest: #247d79;
+  --ifm-color-primary-light: #4bb8b3;
+  --ifm-color-primary-lighter: #54bcb7;
+  --ifm-color-primary-lightest: #71c8c4;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Make tables a touch tighter and friendlier */
+table {
+  display: table;
+  width: 100%;
+}
+
+/* Image caption look — alt text shows under image if you wrap with <figure> */
+article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
