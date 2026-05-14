@@ -32,6 +32,9 @@
   --ifm-color-primary-lighter: #54bcb7;
   --ifm-color-primary-lightest: #71c8c4;
 
+  /* Headings need a light tone in dark mode */
+  --ifm-heading-color: #DEF2F1;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -41,9 +44,17 @@ table {
   width: 100%;
 }
 
-/* Image caption look — alt text shows under image if you wrap with <figure> */
 article img {
   max-width: 100%;
   height: auto;
   border-radius: 4px;
+}
+
+/* Engineering/rigging diagrams are dark line art on transparent background.
+   In dark mode they disappear — give them a light backdrop. */
+[data-theme='dark'] article img[src*="/img/rigging-"],
+[data-theme='dark'] article img[src*="/img/frame-"],
+[data-theme='dark'] article img[src*="/img/subcam-"] {
+  background-color: #ffffff;
+  padding: 8px;
 }
