@@ -21,9 +21,3 @@ title: Med Exposure
 | **Surface buoy rope** | 14 mm Polysteel, 2 m<br/>gaelforcemarine.co.uk | £0.71<br/>(Sold in 220 m length at £77.91, £20 shipping) |
 | **Surface buoys** | 2x Polyform A0 Net Buoy 30" diam<br/>gaelforcemarine.co.uk | £40.72<br/>(£7 shipping) |
 | **TOTAL** |  | **£211.95 (marginal cost)** |
-
-:::info
-**Suppliers** — Frame tube + Interclamp fittings: [themetalstore.co.uk](https://www.themetalstore.co.uk).
-Mooring chain: **E.Y.E. Marine Ltd** ([eyemarine.co.uk](https://eyemarine.co.uk), 01473 659666).
-Rope and surface buoys: **Gaelforce Marine** ([gaelforcemarine.co.uk](https://www.gaelforcemarine.co.uk)).
-:::

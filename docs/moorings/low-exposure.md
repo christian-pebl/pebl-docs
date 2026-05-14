@@ -19,9 +19,3 @@ title: Low Exposure
 | **Sinking up-line rope** | 14 mm Polysteel Leaded, 15 m<br/>gaelforcemarine.co.uk | £14.18<br/>(Sold in 220 m length at £208.43, £20 shipping) |
 | **Surface buoy** | Polyform A0 Net Buoy 30" diam<br/>gaelforcemarine.co.uk | £20.36<br/>(£7 shipping) |
 | **TOTAL** |  | **£128.87 (marginal cost)** |
-
-:::info
-**Suppliers** — Frame tube + Interclamp fittings: [themetalstore.co.uk](https://www.themetalstore.co.uk).
-Mooring chain: **E.Y.E. Marine Ltd** ([eyemarine.co.uk](https://eyemarine.co.uk), 01473 659666).
-Rope and surface buoys: **Gaelforce Marine** ([gaelforcemarine.co.uk](https://www.gaelforcemarine.co.uk)).
-:::
