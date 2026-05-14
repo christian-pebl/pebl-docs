@@ -21,3 +21,6 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# Local deploy zips (manual fallback only)
+pebl-docs-deploy.zip
