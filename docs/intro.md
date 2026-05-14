@@ -11,8 +11,6 @@ _Updated May 2026 by C Berger (v2)_
 
 [**📄 Download the PDF version**](/files/PEBL_Mooring_Guide_SubCam_V2.pdf) — 4-page printable layout.
 
-![PEBL MicroLander frames rigged with ground rope, mooring clump and surface buoy.](/img/hero-lander-frames.jpg)
-
 This guide describes the standard mooring configurations for **PEBL SubCam** benthic deployments. Moorings are documented for three exposure ratings — **Low**, **Med** and **High** — to suit a range of tidal and wave-energy environments.
 
 :::info
