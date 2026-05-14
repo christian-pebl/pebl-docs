@@ -50,6 +50,11 @@ article img {
   border-radius: 4px;
 }
 
+/* Navbar: give the title a bit of breathing room from the logo */
+.navbar__brand .navbar__logo {
+  margin-right: 1rem;
+}
+
 /* Engineering/rigging diagrams are dark line art on transparent background.
    In dark mode they disappear — give them a light backdrop.
    Docusaurus rewrites image paths to /assets/images/<hash>, so match by filename stem. */

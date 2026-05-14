@@ -53,7 +53,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'PEBL Docs',
+        title: 'Docs',
         logo: {
           alt: 'PEBL CIC',
           src: 'img/logo-light.svg',
@@ -63,11 +63,6 @@ const config = {
           {
             href: 'https://www.pebl-cic.co.uk',
             label: 'pebl-cic.co.uk',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/christian-pebl/pebl-docs',
-            label: 'GitHub',
             position: 'right',
           },
         ],
