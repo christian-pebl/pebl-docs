@@ -13,4 +13,4 @@ SubCam cameras give a **Field of View of 100° horizontally and 60° vertically*
 
 The image below shows the central focus and projected field of view onto the seabed relative to the visibility range.
 
-![SubCam at -15° tilt with 2 m water visibility — slant 1070 mm, reach 1033 mm.](/img/subcam-device-view.png)
+![SubCam at -15° tilt with 2 m water visibility — slant 1070 mm, reach 1033 mm.](/img/camera-config.png)
