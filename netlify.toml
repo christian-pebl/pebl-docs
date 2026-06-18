@@ -11,18 +11,34 @@
   status = 301
   force = true
 
-# Mooring Examples merged into Frame Configurations
+# Mooring Guide relocated under /mooring-guide (User Guide now at root)
+[[redirects]]
+  from = "/camera-configuration"
+  to = "/mooring-guide/camera-configuration"
+  status = 301
+
+[[redirects]]
+  from = "/frame-configurations"
+  to = "/mooring-guide/frame-configurations"
+  status = 301
+
+[[redirects]]
+  from = "/frame-configurations/*"
+  to = "/mooring-guide/frame-configurations/:splat"
+  status = 301
+
+# Legacy /moorings paths
 [[redirects]]
   from = "/moorings"
-  to = "/frame-configurations/"
+  to = "/mooring-guide/frame-configurations/"
   status = 301
 
 [[redirects]]
   from = "/moorings/"
-  to = "/frame-configurations/"
+  to = "/mooring-guide/frame-configurations/"
   status = 301
 
 [[redirects]]
   from = "/moorings/*"
-  to = "/frame-configurations/:splat"
+  to = "/mooring-guide/frame-configurations/:splat"
   status = 301
