@@ -1,34 +1,56 @@
 ---
 slug: /
 sidebar_position: 1
-title: Introduction
-description: Standard mooring configurations for PEBL SubCam benthic deployments.
+sidebar_label: Overview
+title: SubCam User Guide
+description: Set up, deploy and review the PEBL SubCam autonomous underwater camera.
 ---
 
-# Mooring Guide for benthic SubCam deployment
+# SubCam User Guide
 
-_Updated May 2026 by C Berger (v2)_
+_Schedule. Submerge. Capture._
 
-[**📄 Download the PDF version**](/files/PEBL_Mooring_Guide_SubCam_V2.pdf) — 4-page printable layout.
+[**📄 Download the printable PDF**](/files/PEBL_SubCam_User_Guide_V1.pdf) (illustrated quick-start guide).
 
-This guide describes the standard mooring configurations for **PEBL SubCam** benthic deployments. Moorings are documented for three exposure ratings — **Low**, **Med** and **High** — to suit a range of tidal and wave-energy environments.
+The SubCam is an autonomous underwater camera. You set it up once on your phone or laptop using the PEBL App, drop it in the water, and it captures video and photos to your schedule. It also records water temperature and camera orientation at every wake-up, so you have the context for every capture.
 
-:::info
-Use the sidebar (or the cards below) to jump to the section you need.
-:::
+![The PEBL SubCam autonomous underwater camera.](/img/subcam-device.png)
 
-## What's in this guide
+## What you can do with a SubCam
 
-* **[Camera Configuration](./camera-configuration.md)** — how the SubCam mounts on the frame and how field of view, slant range and reach are configured.
-* **[Frame Configurations](./frame-configurations/index.md)** — the three exposure-rated Microlander frame builds (Low / Med / High) with weights, tube diameters, prices and full mooring examples:
-  * [Low Exposure](./frame-configurations/low-exposure.md) — 5 m depth, &lt;2 m wave / &lt;1 m/s
-  * [Med Exposure](./frame-configurations/med-exposure.md) — 10 m depth, &lt;5 m wave / &lt;2 m/s
-  * [High Exposure](./frame-configurations/high-exposure.md) — 20 m depth, &lt;10 m wave / &lt;4 m/s
+* **Set it and forget it.** Build a schedule of capture events, whether that is once every 30 minutes, hourly, or only between set hours such as 9am to 5pm.
+* **Up to 15 hours of recording** on a single charge. Spread it across months of scheduled captures, or use it in a single session.
+* **Built for the sea.** Marine-grade POM-C enclosure rated for continuous submersion to 50 m.
+* **Set up, deploy and review anywhere.** Connect over WiFi and run the PEBL App in any browser. No internet or signal needed.
 
-## Exposure ratings at a glance
+## What's in the box
 
-| Exposure | Max. wave height | Max. current speed | Example depth |
-| --- | --- | --- | --- |
-| **Low** | &lt; 2 m | &lt; 1 m/s | 5 m |
-| **Med** | &lt; 5 m | &lt; 2 m/s | 10 m |
-| **High** | &lt; 10 m | &lt; 4 m/s | 20 m |
+![What's in the box: SubCam, SD card, charger and cable, carry case, user guide and mounting kit.](/img/subcam-whats-in-box.png)
+
+1. SubCam
+2. 128 GB SD card
+3. 9V USB-C charger and USB-C cable
+4. IP67 carry case
+5. User guide
+6. Optional: mounting kit
+
+## Set up in four steps
+
+1. **[Charge and power on](./hardware.md)** the SubCam.
+2. **[Connect to the PEBL App](./connect-and-configure.md)** over WiFi.
+3. **[Configure your settings and schedule](./connect-and-configure.md)**, then save and start logging.
+4. **Deploy.** Mount it on a pole (see [Mounting](./mounting.md)) or rig it on a benthic frame (see the [Mooring Guide](./mooring-guide/index.md)).
+
+## In this guide
+
+* [Hardware, LEDs and charging](./hardware.md)
+* [Connect and configure](./connect-and-configure.md)
+* [Operating and retrieving data](./operating.md)
+* [Specification](./specification.md)
+* [Maintenance](./maintenance.md)
+* [Mounting](./mounting.md)
+* [Mooring Guide](./mooring-guide/index.md) for benthic frame deployments
+
+## Need help?
+
+Get in touch at [hello@pebl-cic.co.uk](mailto:hello@pebl-cic.co.uk).

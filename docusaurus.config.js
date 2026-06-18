@@ -61,6 +61,11 @@ const config = {
         },
         items: [
           {
+            to: '/mooring-guide',
+            label: 'Mooring Guide',
+            position: 'right',
+          },
+          {
             href: 'https://www.pebl-cic.co.uk',
             label: 'pebl-cic.co.uk',
             position: 'right',
@@ -73,9 +78,9 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {label: 'Mooring Guide', to: '/'},
-              {label: 'Camera Configuration', to: '/camera-configuration'},
-              {label: 'Frame Configurations', to: '/frame-configurations'},
+              {label: 'SubCam User Guide', to: '/'},
+              {label: 'Specification', to: '/specification'},
+              {label: 'Mooring Guide', to: '/mooring-guide'},
             ],
           },
           {

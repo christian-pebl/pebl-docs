@@ -9,18 +9,33 @@
       "permanent": true
     },
     {
+      "source": "/camera-configuration",
+      "destination": "/mooring-guide/camera-configuration",
+      "permanent": true
+    },
+    {
+      "source": "/frame-configurations",
+      "destination": "/mooring-guide/frame-configurations",
+      "permanent": true
+    },
+    {
+      "source": "/frame-configurations/:path*",
+      "destination": "/mooring-guide/frame-configurations/:path*",
+      "permanent": true
+    },
+    {
       "source": "/moorings",
-      "destination": "/frame-configurations/",
+      "destination": "/mooring-guide/frame-configurations/",
       "permanent": true
     },
     {
       "source": "/moorings/",
-      "destination": "/frame-configurations/",
+      "destination": "/mooring-guide/frame-configurations/",
       "permanent": true
     },
     {
       "source": "/moorings/:path*",
-      "destination": "/frame-configurations/:path*",
+      "destination": "/mooring-guide/frame-configurations/:path*",
       "permanent": true
     }
   ]
