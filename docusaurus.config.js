@@ -88,6 +88,11 @@ const config = {
             ],
           },
           {
+            to: '/hire-and-warranty',
+            label: 'Hire & Warranty',
+            position: 'left',
+          },
+          {
             href: 'https://www.pebl-cic.co.uk',
             label: 'pebl-cic.co.uk',
             position: 'right',
@@ -109,6 +114,7 @@ const config = {
               {label: 'PEBL App', to: '/pebl-app'},
               {label: 'Mooring Guide', to: '/mooring-guide'},
               {label: 'FAQ', to: '/subcam/faq'},
+              {label: 'Hire & Warranty', to: '/hire-and-warranty'},
             ],
           },
           {
