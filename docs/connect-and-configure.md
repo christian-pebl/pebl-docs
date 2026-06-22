@@ -6,6 +6,10 @@ description: Connect to the PEBL App over WiFi, set your camera settings and sch
 
 # Connect and configure
 
+:::tip
+This is the quick version for the SubCam. For the full app reference (every setting, the schedule builder, and data and media management), see the [PEBL App guide](./pebl-app/index.md).
+:::
+
 ## Connect to the PEBL App
 
 1. Press and hold the **power button for 5 seconds**, then wait about 20 seconds.
