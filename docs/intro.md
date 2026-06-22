@@ -49,6 +49,7 @@ The SubCam is an autonomous underwater camera. You set it up once on your phone 
 * [Specification](./specification.md)
 * [Maintenance](./maintenance.md)
 * [Mounting](./mounting.md)
+* [FAQ and troubleshooting](./faq.md)
 * [PEBL App](./pebl-app/index.md): the full app reference for configuring, scheduling and downloading data
 * [Mooring Guide](./mooring-guide/index.md) for benthic frame deployments
 
