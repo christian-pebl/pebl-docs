@@ -22,7 +22,7 @@ Smart Capture adapts to light conditions to get the most useful recording out of
 
 Custom Schedule lets you define each wake event yourself. Press **Add schedule** to add a row.
 
-![A custom schedule wake-event row.](/img/app-schedule.png)
+![A custom schedule wake-event row, shown with Limit Times enabled.](/img/app-schedule.png)
 
 | Field | Meaning |
 | --- | --- |
@@ -30,7 +30,7 @@ Custom Schedule lets you define each wake event yourself. Press **Add schedule**
 | **Video Length** | How long to record video, in seconds or minutes. |
 | **Image Burst** | How many still images to take at the event. |
 | **Repeat Every** | The interval between repeats, in minutes, hours or days. |
-| **Limit Times** | Restrict the event to a chosen time-of-day window. |
+| **Limit Times** | Restrict the event to a daily time window. When switched on, set a start and end time (the example shows 08:00 to 17:00) and the event only fires between those hours each day. |
 | **Sensor Logging** | Log the on-board sensors at this event. |
 
 Add as many rows as you need (each row has a delete button), then press **Save and start logging**.
