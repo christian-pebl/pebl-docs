@@ -1,7 +1,5 @@
 ---
-slug: /
 sidebar_position: 1
-sidebar_label: Overview
 title: SubCam User Guide
 description: Set up, deploy and review the PEBL SubCam autonomous underwater camera.
 ---
@@ -39,7 +37,7 @@ The SubCam is an autonomous underwater camera. You set it up once on your phone 
 1. **[Charge and power on](./hardware.md)** the SubCam.
 2. **[Connect to the PEBL App](./connect-and-configure.md)** over WiFi.
 3. **[Configure your settings and schedule](./connect-and-configure.md)**, then save and start logging.
-4. **Deploy.** Mount it on a pole (see [Mounting](./mounting.md)) or rig it on a benthic frame (see the [Mooring Guide](./mooring-guide/index.md)).
+4. **Deploy.** Mount it on a pole (see [Mounting](./mounting.md)) or rig it on a benthic frame (see the [Mooring Guide](../mooring-guide/index.md)).
 
 ## In this guide
 
@@ -50,8 +48,8 @@ The SubCam is an autonomous underwater camera. You set it up once on your phone 
 * [Maintenance](./maintenance.md)
 * [Mounting](./mounting.md)
 * [FAQ and troubleshooting](./faq.md)
-* [PEBL App](./pebl-app/index.md): the full app reference for configuring, scheduling and downloading data
-* [Mooring Guide](./mooring-guide/index.md) for benthic frame deployments
+* [PEBL App](../pebl-app/index.md): the full app reference for configuring, scheduling and downloading data
+* [Mooring Guide](../mooring-guide/index.md) for benthic frame deployments
 
 ## Need help?
 

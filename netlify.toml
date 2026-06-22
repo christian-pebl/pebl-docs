@@ -11,7 +11,43 @@
   status = 301
   force = true
 
-# Mooring Guide relocated under /mooring-guide (User Guide now at root)
+# SubCam guide moved under /subcam (hub landing now at root)
+[[redirects]]
+  from = "/hardware"
+  to = "/subcam/hardware"
+  status = 301
+
+[[redirects]]
+  from = "/connect-and-configure"
+  to = "/subcam/connect-and-configure"
+  status = 301
+
+[[redirects]]
+  from = "/operating"
+  to = "/subcam/operating"
+  status = 301
+
+[[redirects]]
+  from = "/specification"
+  to = "/subcam/specification"
+  status = 301
+
+[[redirects]]
+  from = "/maintenance"
+  to = "/subcam/maintenance"
+  status = 301
+
+[[redirects]]
+  from = "/mounting"
+  to = "/subcam/mounting"
+  status = 301
+
+[[redirects]]
+  from = "/faq"
+  to = "/subcam/faq"
+  status = 301
+
+# Mooring Guide relocated under /mooring-guide
 [[redirects]]
   from = "/camera-configuration"
   to = "/mooring-guide/camera-configuration"

@@ -16,7 +16,7 @@ Power the SubCam on (hold the power button for 5 seconds) and wait about 20 seco
 
 ### The WiFi says "no internet"
 
-That is expected. The SubCam's WiFi is a local network with no internet of its own, so your device reports "no internet" for it. The PEBL App still works fully over that connection. See the [PEBL App guide](./pebl-app/index.md).
+That is expected. The SubCam's WiFi is a local network with no internet of its own, so your device reports "no internet" for it. The PEBL App still works fully over that connection. See the [PEBL App guide](../pebl-app/index.md).
 
 ### The app won't load
 
@@ -44,29 +44,29 @@ Orange means on but not yet configured, green means configured, and a pulsing LE
 
 ### The Configure button is greyed out
 
-The device is logging. Press **Stop** first (this ends the session and does not delete any data), then open Configure. See [Configure](./pebl-app/configure.md).
+The device is logging. Press **Stop** first (this ends the session and does not delete any data), then open Configure. See [Configure](../pebl-app/configure.md).
 
 ### The heading or compass reading looks wrong
 
-Calibrate the magnetometer with all rigging and metal hardware in their final positions, tilting the device smoothly through all orientations (about 30 to 60 seconds). See [Configure](./pebl-app/configure.md).
+Calibrate the magnetometer with all rigging and metal hardware in their final positions, tilting the device smoothly through all orientations (about 30 to 60 seconds). See [Configure](../pebl-app/configure.md).
 
 ### Should I use Smart Capture or a Custom Schedule?
 
-Use **Smart Capture** to set a deployment window and recordings per day and let the device adapt to daylight (dawn and dusk fixed). Use a **Custom Schedule** to define each wake event yourself. See [Schedule](./pebl-app/schedule.md).
+Use **Smart Capture** to set a deployment window and recordings per day and let the device adapt to daylight (dawn and dusk fixed). Use a **Custom Schedule** to define each wake event yourself. See [Schedule](../pebl-app/schedule.md).
 
 ### How do I make a deployment last longer?
 
-Record fewer or shorter clips, lower the resolution or frame rate, or use the storage-saver preset. The Schedule screen shows a live recording estimate so you can balance coverage against the battery and storage budget. See [Schedule](./pebl-app/schedule.md).
+Record fewer or shorter clips, lower the resolution or frame rate, or use the storage-saver preset. The Schedule screen shows a live recording estimate so you can balance coverage against the battery and storage budget. See [Schedule](../pebl-app/schedule.md).
 
 ## Data and media
 
 ### How do I get my data and media off the device?
 
-Two ways: in the PEBL App, use the **Data** and **Media** screens; or stop the device, remove the SD card, and read it on a computer. See [Data and media](./pebl-app/data-and-media.md).
+Two ways: in the PEBL App, use the **Data** and **Media** screens; or stop the device, remove the SD card, and read it on a computer. See [Data and media](../pebl-app/data-and-media.md).
 
 ### What is in the data file?
 
-A CSV sensor log (water temperature, camera orientation and other sensor readings), named with the device name and the logging window. See [Data and media](./pebl-app/data-and-media.md).
+A CSV sensor log (water temperature, camera orientation and other sensor readings), named with the device name and the logging window. See [Data and media](../pebl-app/data-and-media.md).
 
 ### What video and photo formats does it produce?
 
@@ -94,4 +94,4 @@ Charge to roughly half full, keep it cool, dry and out of direct sunlight in the
 
 ### How do I mount the SubCam?
 
-On a pole using the optional mounting kit (see [Mounting](./mounting.md)), or on a benthic Microlander frame for seabed deployments (see the [Mooring Guide](./mooring-guide/index.md)).
+On a pole using the optional mounting kit (see [Mounting](./mounting.md)), or on a benthic Microlander frame for seabed deployments (see the [Mooring Guide](../mooring-guide/index.md)).

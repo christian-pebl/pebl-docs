@@ -1,5 +1,8 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
+import {createRequire} from 'module';
+
+const require = createRequire(import.meta.url);
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -43,6 +46,19 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: '/',
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -61,13 +77,24 @@ const config = {
         },
         items: [
           {
-            to: '/mooring-guide',
-            label: 'Mooring Guide',
-            position: 'right',
+            type: 'dropdown',
+            label: 'Guides',
+            position: 'left',
+            items: [
+              {label: 'SubCam User Guide', to: '/subcam'},
+              {label: 'PEBL App', to: '/pebl-app'},
+              {label: 'Mooring Guide', to: '/mooring-guide'},
+              {label: 'FAQ and troubleshooting', to: '/subcam/faq'},
+            ],
           },
           {
             href: 'https://www.pebl-cic.co.uk',
             label: 'pebl-cic.co.uk',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/christian-pebl/pebl-docs',
+            label: 'GitHub',
             position: 'right',
           },
         ],
@@ -78,9 +105,10 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {label: 'SubCam User Guide', to: '/'},
-              {label: 'Specification', to: '/specification'},
+              {label: 'SubCam User Guide', to: '/subcam'},
+              {label: 'PEBL App', to: '/pebl-app'},
               {label: 'Mooring Guide', to: '/mooring-guide'},
+              {label: 'FAQ', to: '/subcam/faq'},
             ],
           },
           {

@@ -25,5 +25,5 @@ The optional mounting kit clamps the SubCam to a pole. The exploded view below s
 ![SubCam mounted on a pole, assembled view.](/img/subcam-mounting-assembled.png)
 
 :::info
-For benthic (seabed) deployments on a Microlander frame instead of a pole, see the [Mooring Guide](./mooring-guide/index.md).
+For benthic (seabed) deployments on a Microlander frame instead of a pole, see the [Mooring Guide](../mooring-guide/index.md).
 :::

@@ -60,7 +60,39 @@ article img {
    Docusaurus rewrites image paths to /assets/images/<hash>, so match by filename stem. */
 [data-theme='dark'] article img[src*="rigging-"],
 [data-theme='dark'] article img[src*="frame-"],
-[data-theme='dark'] article img[src*="subcam-"] {
+[data-theme='dark'] article img[src*="subcam-"],
+[data-theme='dark'] article img[src*="app-"] {
   background-color: #ffffff;
   padding: 8px;
+}
+
+/* Landing page guide cards */
+.hub-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.hub-card {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 10px;
+  background: var(--ifm-background-surface-color);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+.hub-card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+.hub-card h3 {
+  margin: 0 0 0.4rem;
+  color: var(--ifm-color-primary);
+}
+.hub-card p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
 }

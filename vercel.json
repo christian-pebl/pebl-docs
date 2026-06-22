@@ -3,40 +3,22 @@
   "outputDirectory": "build",
   "framework": "docusaurus-2",
   "redirects": [
-    {
-      "source": "/docs/:path*",
-      "destination": "/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/camera-configuration",
-      "destination": "/mooring-guide/camera-configuration",
-      "permanent": true
-    },
-    {
-      "source": "/frame-configurations",
-      "destination": "/mooring-guide/frame-configurations",
-      "permanent": true
-    },
-    {
-      "source": "/frame-configurations/:path*",
-      "destination": "/mooring-guide/frame-configurations/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/moorings",
-      "destination": "/mooring-guide/frame-configurations/",
-      "permanent": true
-    },
-    {
-      "source": "/moorings/",
-      "destination": "/mooring-guide/frame-configurations/",
-      "permanent": true
-    },
-    {
-      "source": "/moorings/:path*",
-      "destination": "/mooring-guide/frame-configurations/:path*",
-      "permanent": true
-    }
+    { "source": "/docs/:path*", "destination": "/:path*", "permanent": true },
+
+    { "source": "/hardware", "destination": "/subcam/hardware", "permanent": true },
+    { "source": "/connect-and-configure", "destination": "/subcam/connect-and-configure", "permanent": true },
+    { "source": "/operating", "destination": "/subcam/operating", "permanent": true },
+    { "source": "/specification", "destination": "/subcam/specification", "permanent": true },
+    { "source": "/maintenance", "destination": "/subcam/maintenance", "permanent": true },
+    { "source": "/mounting", "destination": "/subcam/mounting", "permanent": true },
+    { "source": "/faq", "destination": "/subcam/faq", "permanent": true },
+
+    { "source": "/camera-configuration", "destination": "/mooring-guide/camera-configuration", "permanent": true },
+    { "source": "/frame-configurations", "destination": "/mooring-guide/frame-configurations", "permanent": true },
+    { "source": "/frame-configurations/:path*", "destination": "/mooring-guide/frame-configurations/:path*", "permanent": true },
+
+    { "source": "/moorings", "destination": "/mooring-guide/frame-configurations/", "permanent": true },
+    { "source": "/moorings/", "destination": "/mooring-guide/frame-configurations/", "permanent": true },
+    { "source": "/moorings/:path*", "destination": "/mooring-guide/frame-configurations/:path*", "permanent": true }
   ]
 }
