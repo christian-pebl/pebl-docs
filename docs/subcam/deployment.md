@@ -37,7 +37,7 @@ See [Configure](../pebl-app/configure.md) and [Schedule](../pebl-app/schedule.md
 
 ## Biofouling and deployment length
 
-In productive water, marine growth on the lens gradually softens the image. Clean the lens between deployments (see [Maintenance](./maintenance.md)), and plan to redeploy every few weeks, sooner in warm and productive seasons. Longer-duration antifouling is a separate option on the SubCam Pro.
+In productive water, marine growth on the lens gradually softens the image. Clean the lens between deployments (see [Maintenance](./maintenance.md)), and plan to redeploy every few weeks, sooner in warm and productive seasons.
 
 ## Before you deploy: a checklist
 

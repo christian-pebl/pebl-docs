@@ -36,7 +36,6 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
-          editUrl: 'https://github.com/christian-pebl/pebl-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -62,7 +61,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/hero-lander-frames.jpg',
+      image: 'img/social-card.png',
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
@@ -97,11 +96,6 @@ const config = {
             label: 'pebl-cic.co.uk',
             position: 'right',
           },
-          {
-            href: 'https://github.com/christian-pebl/pebl-docs',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -121,7 +115,6 @@ const config = {
             title: 'PEBL CIC',
             items: [
               {label: 'Main website', href: 'https://www.pebl-cic.co.uk'},
-              {label: 'GitHub', href: 'https://github.com/christian-pebl'},
             ],
           },
         ],

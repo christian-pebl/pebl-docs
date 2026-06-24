@@ -5,8 +5,6 @@ description: Standard mooring configurations for PEBL SubCam benthic deployments
 
 # Mooring Guide for benthic SubCam deployment
 
-_Updated May 2026 by C Berger (v2)_
-
 [**📄 Download the PDF version**](/files/PEBL_Mooring_Guide_SubCam_V2.pdf) (4-page printable layout).
 
 This guide describes the standard mooring configurations for **PEBL SubCam** benthic deployments. Moorings are documented for three exposure ratings (**Low**, **Med** and **High**) to suit a range of tidal and wave-energy environments.

@@ -100,7 +100,7 @@ If a seal is broken or degraded through normal wear during deployment, you must 
 10.4 We will tell you about any loss or damage we identify and give you reasonable evidence of the repair or replacement cost, such as a supplier quote or invoice.
 
 :::note[Replacement values]
-As a guide, the SubCam2 has a current published replacement price of £1,499 plus VAT. The replacement value for your Equipment is confirmed on your Hire Confirmation or at the time of any claim.
+As a guide, the SubCam 3 has a current published replacement price of £1,499 plus VAT. The replacement value for your Equipment is confirmed on your Hire Confirmation or at the time of any claim.
 :::
 
 ## 11. Condition reporting
