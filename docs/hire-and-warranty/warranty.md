@@ -1,7 +1,7 @@
 ---
 title: Warranty
 description: What the PEBL product warranty covers, what it excludes, the warranty period, and how to make a claim.
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Warranty
