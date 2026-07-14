@@ -20,14 +20,15 @@ The GrowProbe is a moored water-quality sensor for farm sites. It logs temperatu
 
 ## Set up in four steps
 
-1. **Power up.** Press and hold the power button for 5 seconds.
+1. **Power up.** Unscrew the float to reach the power button, then press and hold it for 5 seconds.
 2. **[Connect to the PEBL App](./connect-and-configure.md)** over the GrowProbe's own WiFi network.
-3. **Configure your settings**, then follow the on-screen steps. Calibrate the compass and turbidity sensor before every deployment.
-4. **Deploy.**
+3. **Configure your settings.** Calibrate the compass and turbidity sensor, then set your deployment details and schedule.
+4. **Deploy.** Screw the float back on and deploy the probe.
 
 ## In this guide
 
 * [Connect and configure](./connect-and-configure.md)
+* [Turbidity calibration](./turbidity-calibration.md): two-point calibration with the 1 L tube and PEBL formazin standard
 * [Specification](./specification.md)
 * [PEBL App](../pebl-app/index.md): the full app reference for configuring, scheduling and downloading data
 

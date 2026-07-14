@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Specification
 description: PEBL GrowProbe technical specification.
 ---
