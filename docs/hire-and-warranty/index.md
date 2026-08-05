@@ -13,6 +13,7 @@ The terms and policies that apply to PEBL kit, whether you are buying it, hiring
 * **[Warranty](./warranty.md)** covers kit you have bought against defects in materials and workmanship.
 * **[Disposal and recycling](./disposal-and-recycling.md)** covers how to return or recycle kit and its battery at the end of its life.
 * **[Privacy Policy](./privacy.md)** explains how we handle your personal data.
+* **[Software Licence](./software-licence.md)** covers the PEBL App, the web portal and the firmware in your kit.
 
 :::info[How hire works]
 The Hire Terms are the standard terms that apply to every hire. The specific kit, hire period and charges for your hire are set out in a separate **Hire Confirmation** that PEBL issues to you, which refers to these standard terms. Placing a hire order means you accept the Hire Terms.
