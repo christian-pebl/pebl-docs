@@ -30,6 +30,7 @@ The GrowProbe is a moored water-quality sensor for farm sites. It logs temperatu
 * [Connect and configure](./connect-and-configure.md)
 * [Turbidity calibration](./turbidity-calibration.md): two-point calibration with the 1 L tube and PEBL formazin standard
 * [Specification](./specification.md)
+* [Field results](./field-results.md): what a real 62-day deployment actually recorded
 * [PEBL App](../pebl-app/index.md): the full app reference for configuring, scheduling and downloading data
 
 ## Need help?
