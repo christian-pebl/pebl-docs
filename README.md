@@ -22,7 +22,7 @@ Markdown content (`docs/` and `static/`) is authored in PEBL's shared Drive copy
 
 A push to `main` triggers an automatic Netlify build and deploy.
 
-> Deployment is via Netlify, not GitHub Pages. The leftover `vercel.json` is not the live config; live redirects belong in `netlify.toml`.
+> Deployment is via Netlify, not GitHub Pages or Vercel. Live redirects belong in `netlify.toml` and nowhere else.
 
 ## Local development
 
