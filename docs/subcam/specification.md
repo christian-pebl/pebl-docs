@@ -9,7 +9,7 @@ description: PEBL SubCam technical specification.
 | Specification | Value |
 | --- | --- |
 | Dimensions | Ø64 × 230 mm |
-| Depth rated | 50 m |
+| Depth rated | 100 m |
 | Weight | 985 g (in air) |
 | Materials | POM-C enclosure, mineral glass lens, stainless A4 hardware |
 | Operating temperature | -5 °C to +40 °C |

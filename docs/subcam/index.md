@@ -18,7 +18,7 @@ The SubCam is an autonomous underwater camera. You set it up once on your phone 
 
 * **Set it and forget it.** Build a schedule of capture events, whether that is once every 30 minutes, hourly, or only between set hours such as 9am to 5pm.
 * **Up to 15 hours of recording** on a single charge. Spread it across months of scheduled captures, or use it in a single session.
-* **Built for the sea.** Marine-grade POM-C enclosure rated for continuous submersion to 50 m.
+* **Built for the sea.** Marine-grade POM-C enclosure rated for continuous submersion to 100 m.
 * **Set up, deploy and review anywhere.** Connect over WiFi and run the PEBL App in any browser. No internet or signal needed.
 
 ## What's in the box

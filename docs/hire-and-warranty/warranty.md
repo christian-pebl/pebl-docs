@@ -31,7 +31,7 @@ The battery is a wear item, so it carries a shorter period. Some loss of battery
 This warranty does not cover:
 
 * Water ingress, flooding or corrosion caused by user error, such as a sealing bung left open, a seal or O-ring not seated correctly, or the housing being opened.
-* Use beyond the product's stated limits, including deployment deeper than the rated depth (50 m for the SubCam).
+* Use beyond the product's stated limits, including deployment deeper than the rated depth (100 m for the SubCam).
 * Impact, crushing, abrasion or other physical damage.
 * Biofouling, or corrosion caused by inadequate cleaning or maintenance.
 * Consumables and normal wear, including SD cards, chargers, cables, seals, O-rings and desiccant.

@@ -76,7 +76,7 @@ H.264 video (`.mp4`) and JPEG stills (`.jpg`). See the [Specification](./specifi
 
 ### How deep can the SubCam go?
 
-It is rated for continuous submersion to 50 m. See the [Specification](./specification.md).
+It is rated for continuous submersion to 100 m. See the [Specification](./specification.md).
 
 ### How do I look after it after a deployment?
 
