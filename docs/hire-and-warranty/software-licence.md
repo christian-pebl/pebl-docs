@@ -36,7 +36,7 @@ The software is licensed to you, not sold. PEBL and its licensors keep all intel
 
 **Your data is yours.** Footage, sensor readings and everything else your kit records belong to you. We only need enough permission to store and process it where that is what makes the software work for you, and to help you when you ask for support.
 
-The PEBL App runs on the device over a local WiFi network with no internet connection, so your captured footage and sensor data stay on the device and its SD card unless you move them yourself. Our [Privacy Policy](./privacy.md) explains how we handle personal data, and it forms part of these terms.
+The PEBL App runs on the device over a local WiFi network with no internet connection, so your captured footage and sensor data stay on the device and its SD card unless you move them. If you upload them to a PEBL online service, such as the fleet portal at peblapp.co.uk, or we store them for you as part of a service, our [Privacy Policy](./privacy.md) explains where they are held. It also explains how we handle personal data, and it forms part of these terms.
 
 If we use aggregated or anonymised data to improve our products, we will make sure it cannot reasonably be traced back to you or your sites.
 

@@ -35,7 +35,7 @@ Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by 
 
 ## 2. Prices and VAT
 
-2.1 Prices are in pounds sterling (GBP) and shown excluding VAT. UK VAT at the standard rate (currently 20%) is added where it applies.
+2.1 Prices are in pounds sterling (GBP). Our website shows each price both including and excluding UK VAT at the standard rate (currently 20%), and VAT is charged where it applies.
 
 2.2 Prices may change, but you pay the price shown on the day you placed your order, even if we confirm the order after a price change.
 
