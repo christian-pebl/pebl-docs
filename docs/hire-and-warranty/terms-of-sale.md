@@ -31,7 +31,7 @@ Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by 
 
 1.2 We may decline or cancel an order before dispatch, for example if the kit is unavailable or the price was listed in error. If you have already paid, we refund you in full.
 
-1.3 If we cannot dispatch an order straight away, we may hold it and confirm it once we can. We confirm held orders in the order we received them. We take no payment for an order we have not confirmed, and you can withdraw a held order at any time before we confirm it.
+1.3 If we cannot meet the dispatch times in clause 4.2 for an order, we may hold it and confirm it once we can. We confirm held orders in the order we received them. We take no payment for an order we have not confirmed, and you can withdraw a held order at any time before we confirm it.
 
 ## 2. Prices and VAT
 
@@ -59,13 +59,15 @@ Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by 
 
 4.1 Orders placed through our website are delivered to UK addresses. For delivery anywhere else, ask us for a quote before you order.
 
-4.2 We agree the delivery method and address with you, and our confirmation gives the dispatch date.
+4.2 We dispatch SubCam 3 and its accessories within 3 weeks of confirming your order, and GrowProbe 4 within 6 weeks of confirming your order.
 
-4.3 If you are buying as a consumer, we will deliver the kit by the date given in our confirmation, or within 30 days of the confirmation if it gives no date.
+4.3 We agree the delivery method and address with you, and our confirmation gives the dispatch date.
 
-4.4 If you are buying for a business or other organisation, delivery dates are estimates, not guarantees.
+4.4 If you are buying as a consumer, we will deliver the kit by the date given in our confirmation, or within 30 days of the confirmation if it gives no date.
 
-4.5 Risk in the kit passes to you on delivery.
+4.5 If you are buying for a business or other organisation, delivery dates are estimates, not guarantees.
+
+4.6 Risk in the kit passes to you on delivery.
 
 ## 5. Title
 
