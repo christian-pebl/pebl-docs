@@ -4,8 +4,6 @@ description: How PEBL CIC collects, uses and protects personal data across its w
 sidebar_position: 5
 ---
 
-{/* DRAFT for Christian's sign-off */}
-
 # Privacy Policy
 
 This policy explains how Plant Ecology Beyond Land (PEBL) CIC ("PEBL", "we", "us") collects, uses and protects personal data. It covers our website, these docs, the fleet portal, the PEBL data cloud, and the way we handle email, calls and orders. FishSpotter has its own notice, explained below. We are the data controller.
@@ -23,7 +21,7 @@ We are registered with the UK Information Commissioner's Office (ICO) under regi
 ### Our website, www.pebl-cic.co.uk
 
 :::note[Until our new website launches]
-Our current website runs on Wix, which hosts its pages, shop and contact forms and uses Google Analytics and Twipla to measure visits. This section describes the new website that replaces it. **[TO DECIDE: publish this policy when the new website launches and delete this box, or describe the Wix site's cookies, processors and transfers here until then.]**
+Until we move the website in November 2026, our current website runs on Wix, which hosts its pages, shop and contact forms and uses Google Analytics and Twipla to measure visits. This section describes the new website that replaces it.
 :::
 
 **Visiting the site.** Our host, Netlify, processes your IP address and browser details to deliver pages to you and to protect the site from attack. We rely on legitimate interests (running a secure website). Netlify processes this in the United States.
@@ -62,7 +60,7 @@ The fleet portal is where customers see and manage their PEBL kit and its data.
 * **Why:** to give you access to your kit and its data, to check that kit is working, to support you, and to improve our kit and service.
 * **Lawful basis:** contract, for providing the portal to customers; legitimate interests, for device health checks, support, security and product improvement.
 * **AI log review:** where we have switched it on, the portal can send short extracts of device logs, with any automatic fault findings, to Anthropic's AI service, which suggests what may have gone wrong. We rely on legitimate interests (finding and fixing faults).
-* **Processed by:** Render, which hosts the portal and its database in Oregon, United States; Cloudflare R2, which stores footage, images, archived logs and backups (storage location **[TO CONFIRM: R2 bucket location]**); and Anthropic, in the United States, for the AI log review.
+* **Processed by:** Render, which hosts the portal and its database in Oregon, United States; Cloudflare R2, which stores footage, images, archived logs and backups and may process them outside the UK, including in the United States; and Anthropic, in the United States, for the AI log review.
 
 ### The PEBL data cloud, pebl-data.cloud
 
@@ -104,20 +102,21 @@ We rely on contract, legitimate interests, legal obligation and consent, as set 
 
 We do not sell your personal data. We share it only with the service providers below, who process it for us under contract and only on our instructions, and with:
 
-* the courier that delivers your kit, which receives your name, delivery address and phone number; and
+* the courier that delivers your kit, which receives your name, delivery address and phone number;
+* Revolut, our business account provider, which also uses the details of payments to and from us to meet its own legal duties, such as confirmation of payee checks, under its own privacy notice; and
 * authorities such as HMRC, where the law requires it.
 
 | Provider | What it does for us | Where | Transfer safeguard |
 | --- | --- | --- | --- |
 | Netlify, Inc. | Hosts our website and these docs, handles website forms and counts page views | United States | UK Extension to the EU-US Data Privacy Framework |
-| Cloudflare, Inc. | Website statistics; stores fleet portal footage, images, archived logs and backups (R2) | United States; R2 storage location **[TO CONFIRM]** | UK Extension to the EU-US Data Privacy Framework |
+| Cloudflare, Inc. | Website statistics; stores fleet portal footage, images, archived logs and backups (R2) | United States and other countries outside the UK | UK Extension to the EU-US Data Privacy Framework, backed by EU standard contractual clauses with the UK International Data Transfer Addendum in Cloudflare's data processing terms |
 | Render Services, Inc. | Hosts the fleet portal and its database | Oregon, United States | UK Extension to the EU-US Data Privacy Framework |
 | Anthropic, PBC | AI review of device logs in the fleet portal, where switched on | United States | EU standard contractual clauses with the UK International Data Transfer Addendum |
 | Vercel Inc. | Hosts the PEBL data cloud | United States (server functions near Washington DC) | UK Extension to the EU-US Data Privacy Framework |
 | Supabase, Inc. | Database, sign-in and file storage for the data cloud | Stockholm, Sweden | UK adequacy regulations for the EEA, plus EU standard contractual clauses with the UK International Data Transfer Addendum for any access from the US |
 | Google (Google Workspace) | Email, calendar and file storage | United States and other countries | UK Extension to the EU-US Data Privacy Framework |
-| Intuit (QuickBooks) | Accounting and invoicing | **[TO CONFIRM]** | **[TO CONFIRM]** |
-| Revolut (Revolut Business) | Business banking; sends some of our invoices | **[TO CONFIRM]** | **[TO CONFIRM]** |
+| Intuit (QuickBooks) | Accounting and invoicing | United States and other countries where Intuit or its service providers operate | UK Extension to the EU-US Data Privacy Framework, and EU standard contractual clauses with the UK International Data Transfer Addendum |
+| Revolut (Revolut Business) | Business banking; sends some of our invoices | United Kingdom, with some processing outside the UK | A contract with data protection safeguards before any transfer to a country without UK-standard protection |
 | Calendly, LLC | Booking calls | United States | UK Extension to the EU-US Data Privacy Framework |
 
 ## International transfers
@@ -136,11 +135,11 @@ If a provider's certification lapses, we will put another lawful safeguard in pl
 * Account data for the fleet portal and the data cloud: while your account is active, and up to 12 months afterwards.
 * Order, invoice and tax records: 6 years, as required by law.
 * Fleet portal database backups: 30 days, on a rolling basis.
-* Footage, images and sensor data in the fleet portal: **[TO DECIDE]**
-* Archived device logs in the fleet portal: **[TO DECIDE]**
-* Data files and projects in the data cloud: **[TO DECIDE]**
-* Website statistics: **[TO DECIDE: our own page counts, 13 months proposed; Cloudflare Web Analytics]**
-* Newsletter sign-ups: **[TO DECIDE: until you unsubscribe, proposed]**
+* Footage, images and sensor data in the fleet portal: for as long as your rental or service runs and 12 months after it ends, unless you ask us to delete it sooner or we agree otherwise in writing.
+* Archived device logs in the fleet portal: 24 months.
+* Data files and projects in the data cloud: while your account is open and 12 months after it closes.
+* Website statistics: 13 months for our own counts. Cloudflare Web Analytics lets us see the previous six months of its figures.
+* Newsletter sign-ups: until you unsubscribe.
 
 ## Marketing
 
