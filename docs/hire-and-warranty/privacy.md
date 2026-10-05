@@ -16,7 +16,7 @@ This policy explains how Plant Ecology Beyond Land (PEBL) CIC ("PEBL", "we", "us
 
 Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by shares, registered in England and Wales with company number 12076622. Our registered office is 29 Glan Yr Afon Road, Sketty, Swansea, SA2 9JA.
 
-We are registered with the UK Information Commissioner's Office (ICO) under registration reference ZB055953. For anything about your personal data, contact us at [hello@pebl-cic.co.uk](mailto:hello@pebl-cic.co.uk).
+We are registered with the UK Information Commissioner's Office (ICO) under registration reference ZB385831. For anything about your personal data, contact us at [hello@pebl-cic.co.uk](mailto:hello@pebl-cic.co.uk).
 
 ## What we collect, and why
 
