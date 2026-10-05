@@ -82,7 +82,7 @@ FishSpotter is our citizen science app. It has its own privacy notice at [www.fi
 * **Data:** your name and contact details, what you tell us, and records of quotes, orders, hires, invoices and payments.
 * **Why:** to reply to you, to supply and support your kit, and to keep the business and tax records the law requires.
 * **Lawful basis:** contract, for orders and hires; legitimate interests, for enquiries and support; legal obligation, for tax and accounting records.
-* **Processed by:** Google, through Google Workspace, which provides our email, calendar and file storage. Google may process this data in the United States and other countries.
+* **Processed by:** Google, through Google Workspace, which provides our email, calendar and file storage. Google may process this data in the United States and other countries. Intuit, through QuickBooks, keeps our accounts and invoice records. Revolut, through Revolut Business, provides our business bank account and sends some of our invoices.
 
 ### The PEBL App on your kit
 
@@ -116,6 +116,8 @@ We do not sell your personal data. We share it only with the service providers b
 | Vercel Inc. | Hosts the PEBL data cloud | United States (server functions near Washington DC) | UK Extension to the EU-US Data Privacy Framework |
 | Supabase, Inc. | Database, sign-in and file storage for the data cloud | Stockholm, Sweden | UK adequacy regulations for the EEA, plus EU standard contractual clauses with the UK International Data Transfer Addendum for any access from the US |
 | Google (Google Workspace) | Email, calendar and file storage | United States and other countries | UK Extension to the EU-US Data Privacy Framework |
+| Intuit (QuickBooks) | Accounting and invoicing | **[TO CONFIRM]** | **[TO CONFIRM]** |
+| Revolut (Revolut Business) | Business banking; sends some of our invoices | **[TO CONFIRM]** | **[TO CONFIRM]** |
 | Calendly, LLC | Booking calls | United States | UK Extension to the EU-US Data Privacy Framework |
 
 ## International transfers
