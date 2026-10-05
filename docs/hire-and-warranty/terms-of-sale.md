@@ -4,8 +4,6 @@ description: The terms for buying PEBL kit, including prices, payment, delivery,
 sidebar_position: 2
 ---
 
-{/* DRAFT for Christian's sign-off. Decisions approved by Christian 4 Oct 2026: D2, UK delivery included in the price (clause 2.4); D3, no deposit on orders placed through the website (clause 3.2). */}
-
 # Terms of Sale
 
 These Terms of Sale govern the purchase of PEBL kit from Plant Ecology Beyond Land (PEBL) CIC ("PEBL", "we", "us"). If you are hiring kit rather than buying it, the [Hire Terms and Conditions](./hire-terms.md) apply instead. Once you own the kit, the [Warranty](./warranty.md) also applies.

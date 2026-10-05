@@ -4,8 +4,6 @@ description: If you buy PEBL kit as an individual for your own use, how to cance
 sidebar_position: 2.5
 ---
 
-{/* DRAFT for Christian's sign-off. Own wording, not the Schedule 3 model text; see the report. */}
-
 # Cancelling as a consumer
 
 If you buy PEBL kit for yourself, the law gives you time to change your mind. This page explains how that works and what to do. It forms part of our [Terms of Sale](./terms-of-sale.md).
