@@ -59,7 +59,7 @@ Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by 
 
 4.1 Orders placed through our website are delivered to UK addresses. For delivery anywhere else, ask us for a quote before you order.
 
-4.2 We dispatch SubCam 3 and its accessories within 3 weeks of confirming your order, and GrowProbe 4 within 6 weeks of confirming your order.
+4.2 We dispatch SubCam 3 and its accessories, and GrowProbe turbidity calibration fluid, within 3 weeks of confirming your order. We dispatch GrowProbe 4 within 6 weeks of confirming your order.
 
 4.3 We agree the delivery method and address with you, and our confirmation gives the dispatch date.
 
