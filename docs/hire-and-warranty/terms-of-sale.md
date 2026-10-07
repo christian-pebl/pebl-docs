@@ -45,9 +45,9 @@ Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by 
 
 3.1 We take payment by bank transfer. Our bank details are on our invoice.
 
-3.2 There is nothing to pay before we confirm your order, and we do not take a deposit on orders placed through our website.
+3.2 There is nothing to pay before we confirm your order. For an order over £3,000 excluding VAT, once we have confirmed it we invoice 50% of the price before we start building the kit.
 
-3.3 Once we have confirmed your order, payment is due in full before we dispatch the kit, unless we agree otherwise in writing.
+3.3 Once we have confirmed your order, payment in full (or, for an order over £3,000 excluding VAT, the balance) is due before we dispatch the kit, unless we agree otherwise in writing.
 
 3.4 For established institutional customers buying on a purchase order, we may offer payment within 30 days of the invoice date.
 
@@ -64,6 +64,8 @@ Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by 
 4.4 If you are buying as a consumer, we will deliver the kit by the date given in our confirmation, or within 30 days of the confirmation if it gives no date.
 
 4.5 If you are buying for a business or other organisation, delivery dates are estimates, not guarantees.
+
+4.6 CE marking for SubCam 3 and GrowProbe 4 is pending.
 
 4.6 Risk in the kit passes to you on delivery.
 
