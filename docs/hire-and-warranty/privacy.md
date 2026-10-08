@@ -8,7 +8,7 @@ sidebar_position: 5
 
 This policy explains how Plant Ecology Beyond Land (PEBL) CIC ("PEBL", "we", "us") collects, uses and protects personal data. It covers our website, these docs, the fleet portal, the PEBL data cloud, and the way we handle email, calls and orders. FishSpotter has its own notice, explained below. We are the data controller.
 
-**Effective date:** 4 October 2026
+**Effective date:** 8 October 2026
 
 ## Who we are
 
@@ -19,10 +19,6 @@ We are registered with the UK Information Commissioner's Office (ICO) under regi
 ## What we collect, and why
 
 ### Our website, www.pebl-cic.co.uk
-
-:::note[Until our new website launches]
-Until we move the website in November 2026, our current website runs on Wix, which hosts its pages, shop and contact forms and uses Google Analytics and Twipla to measure visits. This section describes the new website that replaces it.
-:::
 
 **Visiting the site.** Our host, Netlify, processes your IP address and browser details to deliver pages to you and to protect the site from attack. We rely on legitimate interests (running a secure website). Netlify processes this in the United States.
 

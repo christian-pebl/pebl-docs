@@ -8,7 +8,7 @@ sidebar_position: 2.5
 
 If you buy PEBL kit for yourself, the law gives you time to change your mind. This page explains how that works and what to do. It forms part of our [Terms of Sale](./terms-of-sale.md).
 
-**Effective date:** 4 October 2026
+**Effective date:** 8 October 2026
 
 ## Who this page is for
 

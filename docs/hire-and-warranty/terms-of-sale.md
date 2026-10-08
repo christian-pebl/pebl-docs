@@ -8,7 +8,7 @@ sidebar_position: 2
 
 These Terms of Sale govern the purchase of PEBL kit from Plant Ecology Beyond Land (PEBL) CIC ("PEBL", "we", "us"). If you are hiring kit rather than buying it, the [Hire Terms and Conditions](./hire-terms.md) apply instead. Once you own the kit, the [Warranty](./warranty.md) also applies.
 
-**Effective date:** 4 October 2026
+**Effective date:** 8 October 2026
 
 :::info[Buying as a consumer?]
 If you are buying for yourself rather than for a business or other organisation, you have extra legal rights, including a right to cancel within 14 days of delivery and rights if your kit is faulty. Nothing in these Terms affects those rights. [Cancelling as a consumer](./cancellation.md) explains how to cancel, and section 10 has more detail.
