@@ -18,15 +18,15 @@ All three tube sizes are standard stock at online metal suppliers (e.g. [themeta
 | Est. price\* (inc VAT) | ~£80 | ~£120 | ~£163 |
 | Additional guard rails | n/a | n/a | Included |
 
-\* Estimated price from [themetalstore.co.uk](https://www.themetalstore.co.uk) for galvanised steel pipe (pre-cut to length) plus Interclamp fittings for a 500 × 500 × 350 mm frame. Prices are indicative — confirm at checkout.
+\* Estimated price from [themetalstore.co.uk](https://www.themetalstore.co.uk) for galvanised steel pipe (pre-cut to length) plus Interclamp fittings for a 500 × 500 × 350 mm frame. Prices are indicative, so confirm them at checkout.
 
 ## Mooring examples by exposure
 
-Three worked examples — one per exposure rating. Each page contains a cross-section diagram and a full Bill of Materials with current supplier prices (May 2026).
+Three worked examples, one per exposure rating. Each page contains a cross-section diagram and a full Bill of Materials with current supplier prices (May 2026).
 
-* [Low Exposure](./low-exposure.md) — 5 m depth, &lt;2 m wave / &lt;1 m/s
-* [Med Exposure](./med-exposure.md) — 10 m depth, &lt;5 m wave / &lt;2 m/s
-* [High Exposure](./high-exposure.md) — 20 m depth, &lt;10 m wave / &lt;4 m/s
+* [Low Exposure](./low-exposure.md): 5 m depth, &lt;2 m wave / &lt;1 m/s
+* [Med Exposure](./med-exposure.md): 10 m depth, &lt;5 m wave / &lt;2 m/s
+* [High Exposure](./high-exposure.md): 20 m depth, &lt;10 m wave / &lt;4 m/s
 
 ### Cost summary across exposures
 
@@ -37,5 +37,5 @@ Three worked examples — one per exposure rating. Each page contains a cross-se
 | **High** | 20 m | &lt;10 m / &lt;4 m/s | **£302.07** |
 
 :::tip
-Marginal cost only — shipping is shared across components when ordered together (E.Y.E. Marine £70/order; themetalstore £15; Gaelforce £20 per rope coil; Polyform buoys £7).
+Marginal cost only. Shipping is shared across components when ordered together (E.Y.E. Marine £70/order; themetalstore £15; Gaelforce £20 per rope coil; Polyform buoys £7).
 :::

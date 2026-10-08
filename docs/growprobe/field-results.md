@@ -30,7 +30,7 @@ The tilt sensor's pitch and roll swung across nearly their full range over the d
 
 ## What this costs per parameter
 
-One GrowProbe, five parameters, one deployment, one CSV: £1,495 ex VAT works out to roughly £299 per parameter. A single dedicated turbidity logger alone commonly costs more than that whole unit, see the [full price comparison](https://www.pebl-cic.co.uk/post/affordable-multiparameter-water-quality-probes-in-2026-what-they-actually-cost).
+One GrowProbe measures five parameters in one deployment and writes them to one CSV, so each parameter costs about a fifth of the [GrowProbe 4 list price](https://www.pebl-cic.co.uk/product-page/growprobe). A single dedicated turbidity logger alone commonly costs more than that whole unit. See the [full price comparison](https://www.pebl-cic.co.uk/post/affordable-multiparameter-water-quality-probes-in-2026-what-they-actually-cost).
 
 ## A note on this data
 

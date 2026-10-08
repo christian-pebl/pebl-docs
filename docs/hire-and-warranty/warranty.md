@@ -31,7 +31,7 @@ The battery is a wear item, so it carries a shorter period. Some loss of battery
 This warranty does not cover:
 
 * Water ingress, flooding or corrosion caused by user error, such as a sealing bung left open, a seal or O-ring not seated correctly, or the housing being opened.
-* Use beyond the product's stated limits, including deployment deeper than the rated depth (50 m for the SubCam).
+* Use beyond the product's stated limits, including deployment deeper than the rated depth (100 m for the SubCam).
 * Impact, crushing, abrasion or other physical damage.
 * Biofouling, or corrosion caused by inadequate cleaning or maintenance.
 * Consumables and normal wear, including SD cards, chargers, cables, seals, O-rings and desiccant.
@@ -56,7 +56,7 @@ To keep this warranty valid:
 
 1. Email [hello@pebl-cic.co.uk](mailto:hello@pebl-cic.co.uk) with your kit's serial number, your proof of purchase, a description of the fault, and photos or a short video if you can.
 2. We will confirm whether the issue looks like a warranty claim and, if so, send you return instructions and a return address.
-3. You cover the cost of sending the kit to us. If the claim is valid, we cover the cost of returning it to you.
+3. You cover the cost of sending the kit to us. If the claim is valid, we cover the cost of returning it to you. If you bought the kit as a consumer and it was faulty when it reached you, we also cover the cost of sending it to us, as the Consumer Rights Act 2015 requires.
 4. We aim to assess returned kit within 10 working days of receiving it and will keep you updated.
 
 ## Repairs outside warranty

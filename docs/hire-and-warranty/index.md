@@ -10,6 +10,7 @@ The terms and policies that apply to PEBL kit, whether you are buying it, hiring
 
 * **[Hire Terms and Conditions](./hire-terms.md)** apply when you **rent** kit from PEBL and return it.
 * **[Terms of Sale](./terms-of-sale.md)** apply when you **buy** kit, and cover payment, delivery, returns and refunds.
+* **[Cancelling as a consumer](./cancellation.md)** explains how individuals buying for themselves can cancel within 14 days and get their money back.
 * **[Warranty](./warranty.md)** covers kit you have bought against defects in materials and workmanship.
 * **[Disposal and recycling](./disposal-and-recycling.md)** covers how to return or recycle kit and its battery at the end of its life.
 * **[Privacy Policy](./privacy.md)** explains how we handle your personal data.
