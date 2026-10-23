@@ -3,7 +3,20 @@
   publish = "build"
 
 [build.environment]
-  NODE_VERSION = "20"
+  # Node 20 reached end of life on 30 April 2026. Node 22 is the version the main website builds with.
+  NODE_VERSION = "22"
+
+# Security headers on every response, matching the main website (www.pebl-cic.co.uk) where they apply.
+# The CSP sets only framing, plugin, base and form rules, so it cannot block Docusaurus's own inline scripts
+# or the local search. Netlify already sends Strict-Transport-Security.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=()"
 
 [[redirects]]
   from = "/docs/*"
