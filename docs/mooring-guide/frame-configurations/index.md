@@ -8,6 +8,10 @@ Recommended Microlander dimensions **500 mm length × 500 mm width × 350 mm hei
 
 All three tube sizes are standard stock at online metal suppliers (e.g. [themetalstore.co.uk](https://www.themetalstore.co.uk)).
 
+:::tip[Putting the frame together]
+Watch the 79-second [frame assembly video](../frame-assembly.md), with the same steps in writing.
+:::
+
 ## Specification by exposure
 
 | Exposure | **Low** | **Med** | **High** |
