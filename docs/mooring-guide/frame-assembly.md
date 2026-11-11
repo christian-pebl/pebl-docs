@@ -9,12 +9,12 @@ description: How to put a Microlander frame together, as a short video and as wr
 How to put a Microlander frame together on the quay or the beach. The video is silent, portrait and 79 seconds long, so you can follow it on a phone with the parts at your feet.
 
 <video controls playsInline preload="metadata" poster="/img/microlander-assembly-poster.jpg" width="1080" height="1920" style={{display: 'block', width: '100%', maxWidth: '360px', height: 'auto', margin: '0 auto 1.5rem', borderRadius: '8px', background: '#17252A'}}>
-  <source src="/videos/PEBL_Microlander_Assembly_V1.mp4" type="video/mp4" />
-  Your browser does not support embedded video. <a href="/videos/PEBL_Microlander_Assembly_V1.mp4">Download the video</a> instead.
+  <source src="/docs/videos/PEBL_Microlander_Assembly_V1.mp4" type="video/mp4" />
+  Your browser does not support embedded video. <a href="/docs/videos/PEBL_Microlander_Assembly_V1.mp4">Download the video</a> instead.
 </video>
 
 :::tip[Save it before you go]
-Signal is often poor at the shore. <a href="/videos/PEBL_Microlander_Assembly_V1.mp4" download>Download the video</a> (7.8 MB) to your phone before you set off.
+Signal is often poor at the shore. <a href="/docs/videos/PEBL_Microlander_Assembly_V1.mp4" download>Download the video</a> (7.8 MB) to your phone before you set off.
 :::
 
 The video shows the **Med exposure** frame (500 × 500 × 350 mm, 42.4 mm tube). The **Low exposure** frame is the same build in 33.7 mm tube. The **High exposure** frame adds two guard rails, so check its parts list on the [High Exposure](./frame-configurations/high-exposure.md) page before you start.

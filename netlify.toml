@@ -18,96 +18,106 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=()"
 
+# The docs live at www.pebl-cic.co.uk/docs/ (Christian, 11 Nov 2026): the website proxies /docs/* to this site. So every
+# redirect target is a full www address; a relative one, answered through the proxy, would land on a website page.
 # Every page URL ends with a slash (trailingSlash: true in docusaurus.config.js), so each redirect target does too,
 # and an old path reaches its page in one hop. The bare folder forms come before their splat rules, so an empty
 # splat never builds a double slash.
 [[redirects]]
   from = "/docs"
-  to = "/"
+  to = "https://www.pebl-cic.co.uk/docs/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/docs/"
-  to = "/"
+  to = "https://www.pebl-cic.co.uk/docs/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/docs/*"
-  to = "/:splat/"
+  to = "https://www.pebl-cic.co.uk/docs/:splat/"
   status = 301
   force = true
 
 # SubCam guide moved under /subcam (hub landing now at root)
 [[redirects]]
   from = "/hardware"
-  to = "/subcam/hardware/"
+  to = "https://www.pebl-cic.co.uk/docs/subcam/hardware/"
   status = 301
 
 [[redirects]]
   from = "/connect-and-configure"
-  to = "/subcam/connect-and-configure/"
+  to = "https://www.pebl-cic.co.uk/docs/subcam/connect-and-configure/"
   status = 301
 
 [[redirects]]
   from = "/operating"
-  to = "/subcam/operating/"
+  to = "https://www.pebl-cic.co.uk/docs/subcam/operating/"
   status = 301
 
 [[redirects]]
   from = "/specification"
-  to = "/subcam/specification/"
+  to = "https://www.pebl-cic.co.uk/docs/subcam/specification/"
   status = 301
 
 [[redirects]]
   from = "/maintenance"
-  to = "/subcam/maintenance/"
+  to = "https://www.pebl-cic.co.uk/docs/subcam/maintenance/"
   status = 301
 
 [[redirects]]
   from = "/mounting"
-  to = "/subcam/mounting/"
+  to = "https://www.pebl-cic.co.uk/docs/subcam/mounting/"
   status = 301
 
 [[redirects]]
   from = "/faq"
-  to = "/subcam/faq/"
+  to = "https://www.pebl-cic.co.uk/docs/subcam/faq/"
   status = 301
 
 # Mooring Guide relocated under /mooring-guide
 [[redirects]]
   from = "/camera-configuration"
-  to = "/mooring-guide/camera-configuration/"
+  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/camera-configuration/"
   status = 301
 
 [[redirects]]
   from = "/frame-configurations"
-  to = "/mooring-guide/frame-configurations/"
+  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/"
   status = 301
 
 [[redirects]]
   from = "/frame-configurations/"
-  to = "/mooring-guide/frame-configurations/"
+  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/"
   status = 301
 
 [[redirects]]
   from = "/frame-configurations/*"
-  to = "/mooring-guide/frame-configurations/:splat/"
+  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/:splat/"
   status = 301
 
 # Legacy /moorings paths
 [[redirects]]
   from = "/moorings"
-  to = "/mooring-guide/frame-configurations/"
+  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/"
   status = 301
 
 [[redirects]]
   from = "/moorings/"
-  to = "/mooring-guide/frame-configurations/"
+  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/"
   status = 301
 
 [[redirects]]
   from = "/moorings/*"
-  to = "/mooring-guide/frame-configurations/:splat/"
+  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/:splat/"
   status = 301
+
+# The old docs host: every address on docs.pebl-cic.co.uk goes to the same page under www.pebl-cic.co.uk/docs/ in one
+# hop. It comes after the old-path rules above, which already send their paths straight to the final page.
+[[redirects]]
+  from = "https://docs.pebl-cic.co.uk/*"
+  to = "https://www.pebl-cic.co.uk/docs/:splat"
+  status = 301
+  force = true

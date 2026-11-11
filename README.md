@@ -1,6 +1,6 @@
 # PEBL Docs
 
-Documentation site for PEBL CIC ocean monitoring kit, published at **https://docs.pebl-cic.co.uk**.
+Documentation site for PEBL CIC ocean monitoring kit, published at **https://www.pebl-cic.co.uk/docs/** (docs.pebl-cic.co.uk redirects there).
 
 Built with [Docusaurus 3](https://docusaurus.io/). Hosted on **Netlify**, which builds automatically on every push to `main` (live in about a minute).
 

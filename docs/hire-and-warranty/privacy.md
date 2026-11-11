@@ -44,7 +44,7 @@ We are registered with the UK Information Commissioner's Office (ICO) under regi
 
 **Videos.** Some pages show YouTube videos. The preview picture is loaded from YouTube, so YouTube can see your IP address and browser details when the page opens. The video itself loads only if you press play, and YouTube may then store information on your device. YouTube is part of Google, and Google's own privacy policy covers its use of this data.
 
-### These docs, docs.pebl-cic.co.uk
+### These docs, www.pebl-cic.co.uk/docs
 
 This site has no forms, sets no cookies and runs no analytics tools. Our host, Netlify, processes your IP address and browser details in the United States to deliver pages and protect the site, and we rely on legitimate interests (running a secure website). If you switch between light and dark mode, your browser remembers the choice on your device. It is not sent to us.
 

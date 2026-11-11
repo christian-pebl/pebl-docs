@@ -8,6 +8,7 @@
     "start": "docusaurus start",
     "prebuild": "node scripts/copy-fonts.mjs",
     "build": "docusaurus build",
+    "postbuild": "node scripts/slash-redirects.mjs",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
