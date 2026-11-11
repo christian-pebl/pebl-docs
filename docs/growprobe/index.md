@@ -6,7 +6,7 @@ description: Set up, deploy and read data from the PEBL GrowProbe water-quality 
 
 # GrowProbe User Guide
 
-[**📄 Download the printable quickstart PDF**](/files/PEBL_GrowProbe_Quickstart_Guide_V1.pdf)
+[**📄 Download the printable quickstart PDF**](pathname:///files/PEBL_GrowProbe_Quickstart_Guide_V1.pdf)
 
 The GrowProbe is a moored water-quality sensor for farm sites. It logs temperature, turbidity, light and current (via tilt angle) to a schedule, and is set up and configured through the same PEBL App used by the SubCam.
 

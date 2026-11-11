@@ -8,7 +8,7 @@ description: Set up, deploy and review the PEBL SubCam autonomous underwater cam
 
 _Schedule. Submerge. Capture._
 
-[**📄 Download the printable PDF**](/files/PEBL_SubCam_User_Guide_V1.pdf) (illustrated quick-start guide).
+[**📄 Download the printable PDF**](pathname:///files/PEBL_SubCam_User_Guide_V1.pdf) (illustrated quick-start guide).
 
 The SubCam is an autonomous underwater camera. You set it up once on your phone or laptop using the PEBL App, drop it in the water, and it captures video and photos to your schedule. It also records water temperature and camera orientation at every wake-up, so you have the context for every capture.
 

@@ -12,33 +12,54 @@ import Link from '@docusaurus/Link';
 
 Setup, deployment and data guides for PEBL ocean monitoring kit. Choose a guide to get started.
 
-<div className="hub-cards">
+<div className="hub-cards hub-cards--photos">
   <Link className="hub-card" to="/subcam">
-    <h3>SubCam User Guide</h3>
-    <p>Set up, charge, deploy and operate the SubCam autonomous underwater camera.</p>
+    <img className="hub-card__img" src="/img/card-subcam.webp" width="800" height="500" alt="SubCam 3 underwater camera: a black cylindrical housing with the PEBL logo on its front cap" />
+    <div className="hub-card__body">
+      <h3>SubCam User Guide</h3>
+      <p>Set up, charge, deploy and operate the SubCam autonomous underwater camera.</p>
+    </div>
   </Link>
   <Link className="hub-card" to="/growprobe">
-    <h3>GrowProbe User Guide</h3>
-    <p>Set up, deploy and read data from the GrowProbe water-quality sensor.</p>
+    <img className="hub-card__img" src="/img/card-growprobe.webp" width="800" height="500" alt="GrowProbe 4 water-quality probe: a long black tapered sensor body with its cable" />
+    <div className="hub-card__body">
+      <h3>GrowProbe User Guide</h3>
+      <p>Set up, deploy and read data from the GrowProbe water-quality sensor.</p>
+    </div>
   </Link>
   <Link className="hub-card" to="/pebl-app">
-    <h3>PEBL App</h3>
-    <p>Connect over WiFi to configure devices, build capture schedules, and download data and media.</p>
+    <img className="hub-card__img" src="/img/card-pebl-app.webp" width="800" height="500" loading="lazy" alt="PEBL App home screen showing a SubCam with its status and the Configure, Data and Media buttons" />
+    <div className="hub-card__body">
+      <h3>PEBL App</h3>
+      <p>Connect over WiFi to configure devices, build capture schedules, and download data and media.</p>
+    </div>
   </Link>
   <Link className="hub-card" to="/mooring-guide">
-    <h3>Mooring Guide</h3>
-    <p>Rig the SubCam on a benthic Microlander frame for seabed deployments.</p>
+    <img className="hub-card__img" src="/img/card-mooring.webp" width="800" height="500" loading="lazy" alt="A person leaning from a workboat to handle a SubCam fixed to a galvanised frame at the water surface" />
+    <div className="hub-card__body">
+      <h3>Mooring Guide</h3>
+      <p>Rig the SubCam on a benthic Microlander frame for seabed deployments.</p>
+    </div>
   </Link>
+</div>
+
+<div className="hub-cards">
   <Link className="hub-card" to="/subcam/faq">
-    <h3>FAQ and troubleshooting</h3>
-    <p>Quick answers and fixes for the most common SubCam questions.</p>
+    <div className="hub-card__body">
+      <h3>FAQ and troubleshooting</h3>
+      <p>Quick answers and fixes for the most common SubCam questions.</p>
+    </div>
   </Link>
   <Link className="hub-card" to="/hire-and-warranty">
-    <h3>Terms & Policies</h3>
-    <p>Hire terms, terms of sale, returns and the product warranty for PEBL kit.</p>
+    <div className="hub-card__body">
+      <h3>Terms & Policies</h3>
+      <p>Hire terms, terms of sale, returns and the product warranty for PEBL kit.</p>
+    </div>
   </Link>
   <Link className="hub-card" to="/glossary">
-    <h3>Glossary</h3>
-    <p>Plain-English definitions: tilt current meters, multiparameter loggers, turbidity/NTU, sonde vs CTD.</p>
+    <div className="hub-card__body">
+      <h3>Glossary</h3>
+      <p>Plain-English definitions: tilt current meters, multiparameter loggers, turbidity/NTU, sonde vs CTD.</p>
+    </div>
   </Link>
 </div>
