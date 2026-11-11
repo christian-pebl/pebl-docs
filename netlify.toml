@@ -95,7 +95,7 @@
 
 [[redirects]]
   from = "/frame-configurations/*"
-  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/:splat/"
+  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/:splat"
   status = 301
 
 # Legacy /moorings paths
@@ -111,7 +111,7 @@
 
 [[redirects]]
   from = "/moorings/*"
-  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/:splat/"
+  to = "https://www.pebl-cic.co.uk/docs/mooring-guide/frame-configurations/:splat"
   status = 301
 
 # The old docs host: every address on docs.pebl-cic.co.uk goes to the same page under www.pebl-cic.co.uk/docs/ in one

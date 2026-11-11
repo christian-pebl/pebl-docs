@@ -18,5 +18,5 @@ export default async (request, context) => {
 
 export const config = {
   pattern: '^/.*[^/]$',
-  excludedPattern: '\.[A-Za-z0-9]+$',
+  excludedPattern: '[.][A-Za-z0-9]+$', // [.] not a backslash escape, which did not survive Netlify's manifest
 };
