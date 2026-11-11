@@ -8,7 +8,7 @@ sidebar_position: 2
 
 These Terms of Sale govern the purchase of PEBL kit from Plant Ecology Beyond Land (PEBL) CIC ("PEBL", "we", "us"). If you are hiring kit rather than buying it, the [Hire Terms and Conditions](./hire-terms.md) apply instead. Once you own the kit, the [Warranty](./warranty.md) also applies.
 
-**Effective date:** 8 October 2026
+**Effective date:** 11 November 2026
 
 :::info[Buying as a consumer?]
 If you are buying for yourself rather than for a business or other organisation, you have extra legal rights, including a right to cancel within 14 days of delivery and rights if your kit is faulty. Nothing in these Terms affects those rights. [Cancelling as a consumer](./cancellation.md) explains how to cancel, and section 10 has more detail.
@@ -45,13 +45,11 @@ Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by 
 
 3.1 We take payment by bank transfer. Our bank details are on our invoice.
 
-3.2 There is nothing to pay before we confirm your order. For an order over £3,000 excluding VAT, once we have confirmed it we invoice 50% of the price before we start building the kit.
+3.2 We take no deposit, whatever the value of your order. We send our invoice when we dispatch the kit, and there is nothing to pay before then.
 
-3.3 Once we have confirmed your order, payment in full (or, for an order over £3,000 excluding VAT, the balance) is due before we dispatch the kit, unless we agree otherwise in writing.
+3.3 Payment is due within 30 days of the invoice date, unless we agree otherwise in writing.
 
-3.4 For established institutional customers buying on a purchase order, we may offer payment within 30 days of the invoice date.
-
-3.5 We may charge interest on late payment at the statutory rate for business debts.
+3.4 We may charge interest on late payment at the statutory rate for business debts.
 
 ## 4. Delivery
 
