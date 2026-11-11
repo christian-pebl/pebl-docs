@@ -1,6 +1,11 @@
 [build]
   command = "npm run build"
   publish = "build"
+  # Skip a production build that cannot change the site (11 Nov 2026: the free plan's 300 monthly credits, shared
+  # with www, ran out; each production deploy costs 15). Skips only when every changed file is CLAUDE.md, README.md,
+  # .gitignore, .github/ or tests/. Previews, empty commits and same-commit rebuilds always build.
+  # Proof: tests/netlify_ignore_check.sh.
+  ignore = "bash scripts/netlify-ignore.sh"
 
 [build.environment]
   # Node 20 reached end of life on 30 April 2026. Node 22 is the version the main website builds with.

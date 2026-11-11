@@ -22,6 +22,8 @@ Markdown content (`docs/` and `static/`) is authored in PEBL's shared Drive copy
 
 A push to `main` triggers an automatic Netlify build and deploy.
 
+**Publish in batches.** Each production deploy costs 15 of the 300 free monthly Netlify credits, shared with www.pebl-cic.co.uk. They ran out on 11 Nov 2026, which paused deploys on both sites. Collect edits and run `publish.ps1` or merge once per batch, about 10 deploys a month across both sites. `scripts/netlify-ignore.sh` skips a deploy when only README.md, CLAUDE.md, .gitignore, `.github/` or `tests/` changed (proof: `bash tests/netlify_ignore_check.sh`).
+
 > Deployment is via Netlify, not GitHub Pages or Vercel. Live redirects belong in `netlify.toml` and nowhere else.
 
 ## Local development
