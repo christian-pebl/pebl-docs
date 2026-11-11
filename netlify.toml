@@ -18,62 +18,82 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), microphone=(), payment=(), usb=()"
 
+# Every page URL ends with a slash (trailingSlash: true in docusaurus.config.js), so each redirect target does too,
+# and an old path reaches its page in one hop. The bare folder forms come before their splat rules, so an empty
+# splat never builds a double slash.
+[[redirects]]
+  from = "/docs"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/"
+  to = "/"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/docs/*"
-  to = "/:splat"
+  to = "/:splat/"
   status = 301
   force = true
 
 # SubCam guide moved under /subcam (hub landing now at root)
 [[redirects]]
   from = "/hardware"
-  to = "/subcam/hardware"
+  to = "/subcam/hardware/"
   status = 301
 
 [[redirects]]
   from = "/connect-and-configure"
-  to = "/subcam/connect-and-configure"
+  to = "/subcam/connect-and-configure/"
   status = 301
 
 [[redirects]]
   from = "/operating"
-  to = "/subcam/operating"
+  to = "/subcam/operating/"
   status = 301
 
 [[redirects]]
   from = "/specification"
-  to = "/subcam/specification"
+  to = "/subcam/specification/"
   status = 301
 
 [[redirects]]
   from = "/maintenance"
-  to = "/subcam/maintenance"
+  to = "/subcam/maintenance/"
   status = 301
 
 [[redirects]]
   from = "/mounting"
-  to = "/subcam/mounting"
+  to = "/subcam/mounting/"
   status = 301
 
 [[redirects]]
   from = "/faq"
-  to = "/subcam/faq"
+  to = "/subcam/faq/"
   status = 301
 
 # Mooring Guide relocated under /mooring-guide
 [[redirects]]
   from = "/camera-configuration"
-  to = "/mooring-guide/camera-configuration"
+  to = "/mooring-guide/camera-configuration/"
   status = 301
 
 [[redirects]]
   from = "/frame-configurations"
-  to = "/mooring-guide/frame-configurations"
+  to = "/mooring-guide/frame-configurations/"
+  status = 301
+
+[[redirects]]
+  from = "/frame-configurations/"
+  to = "/mooring-guide/frame-configurations/"
   status = 301
 
 [[redirects]]
   from = "/frame-configurations/*"
-  to = "/mooring-guide/frame-configurations/:splat"
+  to = "/mooring-guide/frame-configurations/:splat/"
   status = 301
 
 # Legacy /moorings paths
@@ -89,5 +109,5 @@
 
 [[redirects]]
   from = "/moorings/*"
-  to = "/mooring-guide/frame-configurations/:splat"
+  to = "/mooring-guide/frame-configurations/:splat/"
   status = 301

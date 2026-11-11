@@ -1,13 +1,46 @@
 /**
- * PEBL brand palette
- *   #2B7A78  Dark Teal (primary)
- *   #3AAFA9  Teal (accent)
- *   #17252A  Navy (heading)
- *   #DEF2F1  Light Teal (tint)
+ * PEBL docs: the look of www.pebl-cic.co.uk (src/styles/tokens.css and global.css in the website repo).
+ *
+ * Brand colours, the only five:
+ *   #17252A navy, #3AAFA9 teal, #2B7A78 dark teal, #DEF2F1 light teal, #FFFFFF white
+ * Contrast (WCAG 2.x ratio, measured for the website on 30 Sep 2026):
+ *   navy on white 15.74, dark teal on white 5.05, teal on white 2.66 (never text on white)
+ *   white on navy 15.74, light teal on navy 13.55, teal on navy 5.91, dark teal on navy 3.12 (never body text)
+ *   navy on teal 5.91 (filled buttons), navy on light teal 13.55
+ * Links in text are underlined, so they never depend on colour alone.
+ *
+ * Fonts are self-hosted, copied from the @fontsource packages (scripts/copy-fonts.mjs):
+ * Jost for headings, Roboto 400 for body text (700 for bold). Roboto 300 is not used: it reads faint.
  */
 
+/* The web fonts, Latin only, from the @fontsource packages (copied to static/fonts by scripts/copy-fonts.mjs). */
+@font-face { font-family: 'Jost Variable'; font-style: normal; font-display: swap; font-weight: 100 900; src: url('/fonts/jost-latin-wght-normal.woff2') format('woff2-variations'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Roboto'; font-style: normal; font-display: swap; font-weight: 400; src: url('/fonts/roboto-latin-400-normal.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Roboto'; font-style: normal; font-display: swap; font-weight: 700; src: url('/fonts/roboto-latin-700-normal.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* Metric-matched fallbacks, copied from the website's tokens.css, so the swap to the web fonts moves less text. */
+@font-face { font-family: 'Jost Fallback'; src: local('Arial'), local('ArialMT'); font-weight: 100 500; size-adjust: 95.81%; ascent-override: 111.68%; descent-override: 39.14%; line-gap-override: 0%; }
+@font-face { font-family: 'Jost Fallback'; src: local('Arial Bold'), local('Arial-BoldMT'); font-weight: 600 900; size-adjust: 98.68%; ascent-override: 108.44%; descent-override: 38%; line-gap-override: 0%; }
+@font-face { font-family: 'Roboto Fallback'; src: local('Arial'), local('ArialMT'); size-adjust: 97.7%; ascent-override: 94.95%; descent-override: 24.99%; line-gap-override: 0%; }
+
 :root {
-  --ifm-color-primary: #2B7A78;
+  --pebl-navy: #17252a;
+  --pebl-teal: #3aafa9;
+  --pebl-dark-teal: #2b7a78;
+  --pebl-light-teal: #def2f1;
+  --pebl-white: #ffffff;
+  /* Surfaces derived from navy, as on the website */
+  --pebl-surface-raised: #1f3338;
+  --pebl-line-on-dark: rgb(255 255 255 / 0.28);
+  --pebl-line-on-light: rgb(23 37 42 / 0.18);
+
+  --ifm-font-family-base: 'Roboto', 'Roboto Fallback', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Jost Variable', 'Jost', 'Jost Fallback', 'Futura', 'Century Gothic', system-ui, sans-serif;
+  --ifm-font-weight-base: 400;
+  --ifm-heading-font-weight: 600;
+  --ifm-line-height-base: 1.65;
+
+  --ifm-color-primary: #2b7a78;
   --ifm-color-primary-dark: #266e6c;
   --ifm-color-primary-darker: #246865;
   --ifm-color-primary-darkest: #1d5553;
@@ -15,16 +48,29 @@
   --ifm-color-primary-lighter: #338c8a;
   --ifm-color-primary-lightest: #3b9b99;
 
-  --ifm-heading-color: #17252A;
+  --ifm-font-color-base: var(--pebl-navy);
+  --ifm-heading-color: var(--pebl-navy);
+  --ifm-link-color: var(--pebl-dark-teal);
+  --ifm-link-hover-color: var(--pebl-navy);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
 
-  /* Hint / admonition tint */
-  --ifm-color-info-contrast-background: #DEF2F1;
+  --ifm-navbar-height: 4.25rem;
+  --ifm-navbar-background-color: var(--pebl-navy);
+  --ifm-footer-background-color: var(--pebl-navy);
+
+  /* Sidebar: the current page gets a light teal band as well as dark teal text */
+  --ifm-menu-color: var(--pebl-navy);
+  --ifm-menu-color-active: var(--pebl-dark-teal);
+  --ifm-menu-color-background-active: var(--pebl-light-teal);
+  --ifm-menu-color-background-hover: rgb(222 242 241 / 0.6);
+
+  --ifm-color-info-contrast-background: var(--pebl-light-teal);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #3AAFA9;
+  /* Dark mode is navy, not Infima's grey, so the brand carries through. */
+  --ifm-color-primary: #3aafa9;
   --ifm-color-primary-dark: #2fa19b;
   --ifm-color-primary-darker: #2c9893;
   --ifm-color-primary-darkest: #247d79;
@@ -32,13 +78,224 @@
   --ifm-color-primary-lighter: #54bcb7;
   --ifm-color-primary-lightest: #71c8c4;
 
-  /* Headings need a light tone in dark mode */
-  --ifm-heading-color: #DEF2F1;
+  --ifm-background-color: var(--pebl-navy);
+  --ifm-background-surface-color: var(--pebl-surface-raised);
+  --ifm-font-color-base: var(--pebl-white);
+  --ifm-heading-color: var(--pebl-white);
+  --ifm-link-color: var(--pebl-light-teal);
+  --ifm-link-hover-color: var(--pebl-white);
+  --ifm-toc-border-color: var(--pebl-line-on-dark);
+  --ifm-hr-background-color: var(--pebl-line-on-dark);
+
+  --ifm-menu-color: var(--pebl-white);
+  --ifm-menu-color-active: var(--pebl-light-teal);
+  --ifm-menu-color-background-active: var(--pebl-surface-raised);
+  --ifm-menu-color-background-hover: var(--pebl-surface-raised);
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Make tables a touch tighter and friendlier */
+/* ---------- Type ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ifm-heading-font-family);
+  text-transform: none;
+  letter-spacing: 0;
+}
+h1 { font-weight: 700; }
+strong, b { font-weight: 700; }
+
+/* Links inside the text are underlined, so they never depend on colour alone. */
+.markdown a:not(.hub-card):not(.button) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+.markdown a:not(.hub-card):not(.button):hover { text-decoration-thickness: 2px; }
+
+/* ---------- Header (navy in both modes, like the website) ---------- */
+.navbar {
+  background-color: var(--pebl-navy);
+  box-shadow: none;
+  border-bottom: 1px solid var(--pebl-line-on-dark);
+}
+.navbar--dark {
+  --ifm-navbar-link-color: var(--pebl-white);
+  --ifm-navbar-link-hover-color: var(--pebl-light-teal);
+  --ifm-navbar-link-active-color: var(--pebl-light-teal);
+  --ifm-navbar-search-input-background-color: var(--pebl-surface-raised);
+  --ifm-navbar-search-input-color: var(--pebl-white);
+  --ifm-navbar-search-input-placeholder-color: rgb(255 255 255 / 0.8);
+}
+.navbar__logo { height: 30px; }
+.navbar__brand .navbar__logo { margin-right: 0.85rem; }
+.navbar__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: var(--pebl-white);
+  padding-left: 0.85rem;
+  border-left: 1px solid var(--pebl-line-on-dark);
+}
+
+/* Top-level links: sentence case like the website's menu since its redesign (11 Nov 2026), and a teal underline for
+   the current section (a line, so the state does not rest on colour alone). The header stays navy here so it works in
+   both colour modes. */
+.navbar__items > .navbar__item.navbar__link,
+.navbar__items > .navbar__item > .navbar__link {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  border-bottom: 2px solid transparent;
+  padding-top: 0.6rem;
+  padding-bottom: 0.45rem;
+}
+.navbar__items > .navbar__item.navbar__link:hover,
+.navbar__items > .navbar__item > .navbar__link:hover,
+.navbar__items > .navbar__link--active,
+.navbar__items > .navbar__item > .navbar__link--active {
+  border-bottom-color: var(--pebl-teal);
+}
+
+/* Links to www.pebl-cic.co.uk open in the same tab, so they do not need the external-link arrow. */
+.pebl-www-link svg { display: none; }
+
+/* "Get a quote": the one filled button in the header. Navy on teal is 5.91:1.
+   Below 997px Docusaurus moves the item into the mobile menu, so the flex display only applies above that. */
+@media (min-width: 997px) {
+  .navbar__items > a.pebl-quote.navbar__link { display: inline-flex; }
+}
+.navbar__items > a.pebl-quote.navbar__link {
+  align-items: center;
+  min-height: 38px;
+  margin-left: 0.5rem;
+  padding: 0.4rem 1.1rem;
+  border: 1px solid var(--pebl-teal);
+  border-radius: 3px;
+  background: var(--pebl-teal);
+  color: var(--pebl-navy);
+}
+.navbar__items > a.pebl-quote.navbar__link:hover {
+  background: color-mix(in srgb, var(--pebl-teal) 86%, var(--pebl-white));
+  border-bottom-color: var(--pebl-teal);
+  color: var(--pebl-navy);
+  text-decoration: none;
+}
+
+/* Guides drop-down: navy panel, like the website's sub-menus. */
+.navbar--dark .dropdown__menu {
+  background: var(--pebl-navy);
+  border: 1px solid var(--pebl-line-on-dark);
+  border-radius: 6px;
+  box-shadow: 0 12px 28px rgb(0 0 0 / 0.35);
+}
+.navbar--dark .dropdown__link {
+  color: var(--pebl-white);
+  font-size: 0.875rem;
+}
+.navbar--dark .dropdown__link:hover,
+.navbar--dark .dropdown__link--active {
+  background: var(--pebl-surface-raised);
+  color: var(--pebl-light-teal);
+}
+
+/* Colour-mode switch and the mobile menu toggle sit on navy: keep them white. */
+.navbar--dark .clean-btn,
+.navbar__toggle { color: var(--pebl-white); }
+
+/* Mobile menu panel: navy, white links, current page on a raised band. */
+.navbar-sidebar,
+.navbar-sidebar__brand { background-color: var(--pebl-navy); }
+.navbar-sidebar {
+  --ifm-menu-color: var(--pebl-white);
+  --ifm-menu-color-active: var(--pebl-light-teal);
+  --ifm-menu-color-background-active: var(--pebl-surface-raised);
+  --ifm-menu-color-background-hover: var(--pebl-surface-raised);
+  --ifm-color-emphasis-200: var(--pebl-line-on-dark);
+}
+.navbar-sidebar .menu__link,
+.navbar-sidebar .menu__caret::before,
+.navbar-sidebar .navbar-sidebar__back { color: var(--pebl-white); }
+.navbar-sidebar .menu__link--active { color: var(--pebl-light-teal); }
+.navbar-sidebar__back { background: var(--pebl-surface-raised); }
+.navbar-sidebar .menu__link.pebl-quote {
+  justify-content: center;
+  margin-top: 0.75rem;
+  border-radius: 3px;
+  background: var(--pebl-teal);
+  color: var(--pebl-navy);
+  font-size: 1rem;
+}
+
+/* Search box (the local search plug-in) on navy */
+.navbar .navbar__search-input {
+  color: var(--pebl-white);
+  border: 1px solid var(--pebl-line-on-dark);
+  /* Infima's magnifier is a data URI whose currentColor renders black; this is the same icon filled white. */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
+}
+/* The keyboard-shortcut hint (ctrl K) on navy */
+.navbar .navbar__search kbd { color: var(--pebl-white); border-color: var(--pebl-line-on-dark); background: transparent; box-shadow: none; }
+.navbar .navbar__search-input::placeholder { color: rgb(255 255 255 / 0.8); }
+
+/* ---------- Footer (navy, the website's legal line) ---------- */
+.footer {
+  background-color: var(--pebl-navy);
+  border-top: 1px solid var(--pebl-line-on-dark);
+}
+.footer--dark {
+  --ifm-footer-link-color: var(--pebl-white);
+  --ifm-footer-link-hover-color: var(--pebl-light-teal);
+  --ifm-footer-title-color: var(--pebl-light-teal);
+  --ifm-footer-color: var(--pebl-light-teal);
+}
+.footer__title {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 600;
+}
+.footer__link-item { text-decoration: underline; text-decoration-color: var(--pebl-line-on-dark); text-underline-offset: 0.2em; }
+.footer__link-item:hover { text-decoration-color: currentColor; }
+.footer__link-item svg { display: none; }
+.pebl-footer-address { color: var(--pebl-white); display: inline-block; max-width: 18rem; }
+.footer__bottom { text-align: left; }
+.footer__copyright {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--pebl-line-on-dark);
+  font-size: 0.875rem;
+  color: var(--pebl-light-teal);
+}
+.footer__copyright a { color: var(--pebl-light-teal); text-decoration: underline; }
+.footer__logo { max-width: 110px; margin-bottom: 1rem; }
+/* Docusaurus dims the footer logo to half opacity; the website shows it in full white. */
+.footer__bottom a[class*='footerLogoLink'] { opacity: 1; }
+
+/* ---------- Admonitions: note, tip and info in brand light teal. Titles in sentence case (i18n/en/code.json). ---------- */
+.theme-admonition div[class*='admonitionHeading'] {
+  text-transform: none;
+  letter-spacing: 0;
+  font-family: var(--ifm-heading-font-family);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.alert--info,
+.alert--secondary,
+.alert--success {
+  --ifm-alert-background-color: var(--pebl-light-teal);
+  --ifm-alert-background-color-highlight: rgb(43 122 120 / 0.15);
+  --ifm-alert-foreground-color: var(--pebl-navy);
+  --ifm-alert-border-color: var(--pebl-dark-teal);
+}
+[data-theme='dark'] .alert--info,
+[data-theme='dark'] .alert--secondary,
+[data-theme='dark'] .alert--success {
+  --ifm-alert-background-color: var(--pebl-surface-raised);
+  --ifm-alert-background-color-highlight: rgb(58 175 169 / 0.2);
+  --ifm-alert-foreground-color: var(--pebl-white);
+  --ifm-alert-border-color: var(--pebl-teal);
+}
+
+/* ---------- Content ---------- */
 table {
   display: table;
   width: 100%;
@@ -50,14 +307,9 @@ article img {
   border-radius: 4px;
 }
 
-/* Navbar: give the title a bit of breathing room from the logo */
-.navbar__brand .navbar__logo {
-  margin-right: 1rem;
-}
-
-/* Engineering/rigging diagrams are dark line art on transparent background.
-   In dark mode they disappear — give them a light backdrop.
-   Docusaurus rewrites image paths to /assets/images/<hash>, so match by filename stem. */
+/* Engineering/rigging diagrams are dark line art on a transparent background, which disappears on navy,
+   so give them a white backdrop in dark mode. Docusaurus rewrites image paths to /assets/images/<hash>,
+   so match by filename stem. */
 [data-theme='dark'] article img[src*="rigging-"],
 [data-theme='dark'] article img[src*="frame-"],
 [data-theme='dark'] article img[src*="subcam-"],
@@ -66,33 +318,56 @@ article img {
   padding: 8px;
 }
 
-/* Landing page guide cards */
+/* ---------- Landing page guide cards ---------- */
 .hub-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
+  gap: 1.25rem;
   margin: 2rem 0;
 }
+/* Four photo cards: two by two, one column on phones */
+.hub-cards--photos { grid-template-columns: 1fr; }
+@media (min-width: 600px) { .hub-cards--photos { grid-template-columns: repeat(2, 1fr); } }
 .hub-card {
-  display: block;
-  padding: 1.25rem 1.5rem;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 10px;
-  background: var(--ifm-background-surface-color);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--pebl-line-on-light);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
   transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
 }
 .hub-card:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  border-color: var(--pebl-dark-teal);
+  box-shadow: 0 4px 14px rgba(23, 37, 42, 0.12);
   transform: translateY(-2px);
   text-decoration: none;
+  color: var(--ifm-font-color-base);
 }
+.hub-card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 8 / 5;
+  object-fit: cover;
+  background: var(--pebl-light-teal);
+  border-bottom: 1px solid var(--pebl-line-on-light);
+}
+.hub-card__body { padding: 1.1rem 1.25rem 1.25rem; }
 .hub-card h3 {
   margin: 0 0 0.4rem;
-  color: var(--ifm-color-primary);
+  color: var(--ifm-heading-color);
 }
+/* The title is underlined on hover, so the card's link state does not rest on colour alone */
+.hub-card:hover h3 { text-decoration: underline; text-underline-offset: 0.18em; }
 .hub-card p {
   margin: 0;
-  color: var(--ifm-color-emphasis-700);
+  color: var(--ifm-font-color-base);
   font-size: 0.95rem;
 }
+[data-theme='dark'] .hub-card {
+  border-color: var(--pebl-line-on-dark);
+  background: var(--pebl-surface-raised);
+}
+[data-theme='dark'] .hub-card:hover { border-color: var(--pebl-teal); }

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.pebl-cic.co.uk/sitemap.xml
