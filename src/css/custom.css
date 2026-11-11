@@ -137,14 +137,15 @@ strong, b { font-weight: 700; }
   border-left: 1px solid var(--pebl-line-on-dark);
 }
 
-/* Top-level links: the website's small capitals with light tracking, and a teal underline for the current section
-   (a line, so the state does not rest on colour alone). */
+/* Top-level links: sentence case like the website's menu since its redesign (11 Nov 2026), and a teal underline for
+   the current section (a line, so the state does not rest on colour alone). The header stays navy here so it works in
+   both colour modes. */
 .navbar__items > .navbar__item.navbar__link,
 .navbar__items > .navbar__item > .navbar__link {
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  text-transform: none;
+  letter-spacing: 0;
   border-bottom: 2px solid transparent;
   padding-top: 0.6rem;
   padding-bottom: 0.45rem;
@@ -170,7 +171,7 @@ strong, b { font-weight: 700; }
   margin-left: 0.5rem;
   padding: 0.4rem 1.1rem;
   border: 1px solid var(--pebl-teal);
-  border-radius: 999px;
+  border-radius: 3px;
   background: var(--pebl-teal);
   color: var(--pebl-navy);
 }
@@ -220,12 +221,10 @@ strong, b { font-weight: 700; }
 .navbar-sidebar .menu__link.pebl-quote {
   justify-content: center;
   margin-top: 0.75rem;
-  border-radius: 999px;
+  border-radius: 3px;
   background: var(--pebl-teal);
   color: var(--pebl-navy);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 /* Search box (the local search plug-in) on navy */
