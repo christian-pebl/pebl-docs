@@ -20,6 +20,18 @@ const config = {
   // Without this, 32 of 40 sitemap URLs pointed at addresses that Netlify 301s to the slash version.
   trailingSlash: true,
 
+  // Self-hosted fonts, as on www.pebl-cic.co.uk: fetch the heading and body fonts early so text settles sooner.
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {rel: 'preload', href: '/fonts/jost-latin-wght-normal.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'},
+    },
+    {
+      tagName: 'link',
+      attributes: {rel: 'preload', href: '/fonts/roboto-latin-400-normal.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'},
+    },
+  ],
+
   organizationName: 'christian-pebl',
   projectName: 'pebl-docs',
 
@@ -42,13 +54,8 @@ const config = {
         },
         blog: false,
         theme: {
-          // Self-hosted fonts, as on www.pebl-cic.co.uk: Jost for headings, Roboto 400 (700 for bold) for body text.
-          customCss: [
-            require.resolve('@fontsource-variable/jost/wght.css'),
-            require.resolve('@fontsource/roboto/400.css'),
-            require.resolve('@fontsource/roboto/700.css'),
-            './src/css/custom.css',
-          ],
+          // Fonts are declared in custom.css and served from /fonts/ (copied from @fontsource by scripts/copy-fonts.mjs).
+          customCss: './src/css/custom.css',
         },
       }),
     ],

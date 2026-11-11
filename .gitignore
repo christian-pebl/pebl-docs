@@ -24,3 +24,6 @@ yarn-error.log*
 
 # Local deploy zips (manual fallback only)
 pebl-docs-deploy.zip
+
+# Web fonts copied from the @fontsource packages at build time (scripts/copy-fonts.mjs)
+/static/fonts
