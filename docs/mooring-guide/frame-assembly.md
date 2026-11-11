@@ -8,7 +8,7 @@ description: How to put a Microlander frame together, as a short video and as wr
 
 How to put a Microlander frame together on the quay or the beach. The video is silent, portrait and 79 seconds long, so you can follow it on a phone with the parts at your feet.
 
-<video controls playsInline preload="metadata" poster="/img/microlander-assembly-poster.jpg" width="1080" height="1920" style={{display: 'block', width: '100%', maxWidth: '360px', height: 'auto', margin: '0 auto 1.5rem', borderRadius: '8px', background: '#17252A'}}>
+<video controls playsInline preload="metadata" poster="/docs/img/microlander-assembly-poster.jpg" width="1080" height="1920" style={{display: 'block', width: '100%', maxWidth: '360px', height: 'auto', margin: '0 auto 1.5rem', borderRadius: '8px', background: '#17252A'}}>
   <source src="/docs/videos/PEBL_Microlander_Assembly_V1.mp4" type="video/mp4" />
   Your browser does not support embedded video. <a href="/docs/videos/PEBL_Microlander_Assembly_V1.mp4">Download the video</a> instead.
 </video>
