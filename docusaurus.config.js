@@ -14,8 +14,10 @@ const config = {
     v4: true,
   },
 
-  url: 'https://docs.pebl-cic.co.uk',
-  baseUrl: '/',
+  // Served at www.pebl-cic.co.uk/docs/ (Christian, 11 Nov 2026): the website proxies /docs/* to this Netlify site,
+  // and docs.pebl-cic.co.uk redirects there (netlify.toml).
+  url: 'https://www.pebl-cic.co.uk',
+  baseUrl: '/docs/',
   // Every page is served from a folder (/subcam/), so the canonical and sitemap URLs must end with a slash.
   // Without this, 32 of 40 sitemap URLs pointed at addresses that Netlify 301s to the slash version.
   trailingSlash: true,
@@ -24,11 +26,11 @@ const config = {
   headTags: [
     {
       tagName: 'link',
-      attributes: {rel: 'preload', href: '/fonts/jost-latin-wght-normal.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'},
+      attributes: {rel: 'preload', href: '/docs/fonts/jost-latin-wght-normal.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'},
     },
     {
       tagName: 'link',
-      attributes: {rel: 'preload', href: '/fonts/roboto-latin-400-normal.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'},
+      attributes: {rel: 'preload', href: '/docs/fonts/roboto-latin-400-normal.woff2', as: 'font', type: 'font/woff2', crossorigin: 'anonymous'},
     },
   ],
 

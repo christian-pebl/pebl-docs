@@ -16,7 +16,7 @@ Watch the 79-second [frame assembly video](../frame-assembly.md), with the same 
 
 | Exposure | **Low** | **Med** | **High** |
 | --- | :---: | :---: | :---: |
-| Image | <img src="/img/frame-low.png" alt="Low" width="160" /> | <img src="/img/frame-med.png" alt="Med" width="160" /> | <img src="/img/frame-high.png" alt="High" width="160" /> |
+| Image | <img src="/docs/img/frame-low.png" alt="Low" width="160" /> | <img src="/docs/img/frame-med.png" alt="Med" width="160" /> | <img src="/docs/img/frame-high.png" alt="High" width="160" /> |
 | Weight (frame + SubCam) | 13.7 kg | 21.1 kg | 33.2 kg |
 | Tube diameter | 33.7 mm | 42.4 mm | 48.3 mm |
 | Est. price\* (inc VAT) | ~£80 | ~£120 | ~£163 |

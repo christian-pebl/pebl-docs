@@ -11,8 +11,8 @@ This is the quick version for the GrowProbe. For the full app reference (every s
 :::
 
 <video controls preload="metadata" style={{width: '100%', borderRadius: '8px'}}>
-  <source src="/videos/PEBL_GrowProbe_Calibration_V1.mp4" type="video/mp4" />
-  Your browser does not support embedded video. <a href="/videos/PEBL_GrowProbe_Calibration_V1.mp4">Download the video</a> instead.
+  <source src="/docs/videos/PEBL_GrowProbe_Calibration_V1.mp4" type="video/mp4" />
+  Your browser does not support embedded video. <a href="/docs/videos/PEBL_GrowProbe_Calibration_V1.mp4">Download the video</a> instead.
 </video>
 
 A 2-minute walkthrough of the full setup: connecting, calibrating the heading and turbidity sensor, and starting a logging session. Captions are burned in.
