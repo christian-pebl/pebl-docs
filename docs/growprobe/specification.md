@@ -20,4 +20,4 @@ description: PEBL GrowProbe technical specification.
 | Output file type | .CSV, comma separated |
 | Logging rate | 10/second to 1/day, burst and averaging mode |
 | Memory | microSD card. Supplied with 32 GB SanDisk |
-| Battery | 12.8 Ah lithium-ion. Up to 320 days at a 30-minute sampling rate on a single charge |
+| Battery | 12.8 Ah lithium-ion. About 10 months at a 30-minute sampling rate on a single charge |
