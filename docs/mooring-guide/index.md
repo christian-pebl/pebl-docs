@@ -21,6 +21,7 @@ Use the sidebar (or the cards below) to jump to the section you need.
   * [Med Exposure](./frame-configurations/med-exposure.md), 10 m depth, &lt;5 m wave / &lt;2 m/s
   * [High Exposure](./frame-configurations/high-exposure.md), 20 m depth, &lt;10 m wave / &lt;4 m/s
 * **[Frame Assembly](./frame-assembly.md)** shows how to put the frame together, as a 79-second video and as written steps.
+* **[Deployment](./deployment.md)** shows how to put the rig in the water from a small boat, as a 75-second video and as written steps.
 
 ## Exposure ratings at a glance
 

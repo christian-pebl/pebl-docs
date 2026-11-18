@@ -12,6 +12,10 @@ All three tube sizes are standard stock at online metal suppliers (e.g. [themeta
 Watch the 79-second [frame assembly video](../frame-assembly.md), with the same steps in writing.
 :::
 
+:::tip[Putting it in the water]
+Watch the 75-second [deployment video](../deployment.md), with the same steps in writing.
+:::
+
 ## Specification by exposure
 
 | Exposure | **Low** | **Med** | **High** |
