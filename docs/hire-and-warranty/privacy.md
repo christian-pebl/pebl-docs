@@ -8,7 +8,7 @@ sidebar_position: 5
 
 This policy explains how Plant Ecology Beyond Land (PEBL) CIC ("PEBL", "we", "us") collects, uses and protects personal data. It covers our website, these docs, the fleet portal, the PEBL data cloud, and the way we handle email, calls and orders. FishSpotter has its own notice, explained below. We are the data controller.
 
-**Effective date:** 8 October 2026
+**Effective date:** 18 November 2026
 
 ## Who we are
 
@@ -52,7 +52,8 @@ This site has no forms, sets no cookies and runs no analytics tools. Our host, N
 
 The fleet portal is where customers see and manage their PEBL kit and its data.
 
-* **Data:** your name, email address, username and organisation, and your password, which is stored in a form we cannot read. Records of which kit you hold, and data from that kit, including device settings, status and logs, sensor readings, deployment records (where and when kit was deployed) and the footage and images it captures. Footage can sometimes show people, boats or places that could identify someone.
+* **Data:** your name, email address, username and organisation, and, if you use one, your password, which is stored in a form we cannot read. Records of which kit you hold, and data from that kit, including device settings, status and logs, sensor readings, deployment records (where and when kit was deployed) and the footage and images it captures. Footage can sometimes show people, boats or places that could identify someone.
+* **Sign in with Google:** if you choose this option, Google sends us your name, email address, profile picture and Google account ID, confirms that your email address is verified and, for a work account, tells us its domain. We keep these with your portal account and use them to sign you in. If the address matches an existing portal account, the two are linked and any password on a customer account stops working. We never see your Google password, and we do not get access to your email, files or anything else in your Google account. Google handles its side of the sign-in under its own privacy policy.
 * **Why:** to give you access to your kit and its data, to check that kit is working, to support you, and to improve our kit and service.
 * **Lawful basis:** contract, for providing the portal to customers; legitimate interests, for device health checks, support, security and product improvement.
 * **AI log review:** where we have switched it on, the portal can send short extracts of device logs, with any automatic fault findings, to Anthropic's AI service, which suggests what may have gone wrong. We rely on legitimate interests (finding and fixing faults).
