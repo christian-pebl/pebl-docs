@@ -16,7 +16,7 @@ The GrowProbe is a moored water-quality sensor for farm sites. It logs temperatu
 * **Current speed and direction from tilt.** Reports tilt angle (0 to 85°, roughly 0 to 2.5 knots) and heading (0 to 360°).
 * **Flexible logging rate.** From 10 readings a second to one a day, with burst and averaging modes.
 * **Built for the sea.** POM-C enclosure with titanium hardware, rated for continuous submersion to 50 m.
-* **Long deployments.** Up to 320 days on a single charge at a 30-minute sampling rate.
+* **Long deployments.** About 10 months on a single charge at a 30-minute sampling rate.
 
 ## Set up in four steps
 
