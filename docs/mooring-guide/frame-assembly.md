@@ -47,7 +47,7 @@ Work on flat ground.
 Check every screw is firm before you deploy.
 :::
 
-Next, mount the SubCam on the crossbar and set its tilt. See [Camera Configuration](./camera-configuration.md).
+Next, mount the SubCam on the crossbar and set its tilt. See [Camera Configuration](./camera-configuration.md). Then see [Deployment](./deployment.md) for putting the rig in the water.
 
 ## Need help?
 

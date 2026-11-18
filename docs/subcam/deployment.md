@@ -6,7 +6,7 @@ sidebar_position: 7.5
 
 # Field deployment
 
-This guide is about getting good footage from the SubCam in the field: choosing a site, aiming the camera, picking settings for the conditions, and what to check before and after every deployment. For the mechanics of mounting and rigging, see [Mounting](./mounting.md) and the [Mooring Guide](../mooring-guide/index.md).
+This guide is about getting good footage from the SubCam in the field: choosing a site, aiming the camera, picking settings for the conditions, and what to check before and after every deployment. For the mechanics of mounting and rigging, see [Mounting](./mounting.md) and the [Mooring Guide](../mooring-guide/index.md). Its [Deployment](../mooring-guide/deployment.md) page shows how to put a Microlander rig in the water from a small boat, as a short video.
 
 ## Match the rig to the site
 
