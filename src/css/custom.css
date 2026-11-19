@@ -307,10 +307,10 @@ article img {
   border-radius: 4px;
 }
 
-/* Engineering/rigging diagrams are dark line art on a transparent background, which disappears on navy,
+/* Engineering diagrams are dark line art on a transparent background, which disappears on navy,
    so give them a white backdrop in dark mode. Docusaurus rewrites image paths to /assets/images/<hash>,
-   so match by filename stem. */
-[data-theme='dark'] article img[src*="rigging-"],
+   so match by filename stem. The mooring rig pictures (rigging-*) are full pictures with their own
+   background since 19 Nov 2026, so they are left alone. */
 [data-theme='dark'] article img[src*="frame-"],
 [data-theme='dark'] article img[src*="subcam-"],
 [data-theme='dark'] article img[src*="app-"] {
