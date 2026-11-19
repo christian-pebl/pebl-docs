@@ -13,7 +13,7 @@ title: Med Exposure
 
 </div>
 
-Every rope is as long as the depth at high tide plus 20%, so 12 m here. Striped rope floats and solid rope sinks. The ropes and the depth are drawn to scale. The lander, chain and buoys are not.
+Every rope is as long as the depth at high tide plus 20%, so 12 m here, apart from the 2 m between the buoys. Striped rope floats and solid rope sinks. The ropes and the depth are drawn to scale. The lander, chain and buoys are not.
 
 This is the rig in the [deployment video](../deployment.md), which shows how to put it in the water.
 

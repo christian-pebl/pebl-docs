@@ -89,7 +89,7 @@ for page, (depth, rope_m) in EXPECT.items():
     check(bool(alt) and f'{depth} m of water at high tide' in alt.group(1), f'{page}: picture description gives {depth} m at high tide')
 
 summary = read('frame-configurations', 'index.md')
-check('every rope is as long as that depth plus 20%' in summary, 'index.md: states the rope rule')
+check('Every rope is as long as that depth plus 20%' in summary, 'index.md: states the rope rule')
 for page, (depth, _) in EXPECT.items():
     m = re.search(r'\| \*\*' + SUMMARY_NAME[page] + r'\*\* \| (\d+) m \| [^|]+ \| \*\*£([\d,]+\.\d\d)\*\* \|', summary)
     check(bool(m) and int(m.group(1)) == depth and pounds(m.group(2)) == totals[page],

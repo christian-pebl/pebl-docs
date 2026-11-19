@@ -13,7 +13,7 @@ title: High Exposure
 
 </div>
 
-Every rope is as long as the depth at high tide plus 20%, so 24 m here. Striped rope floats and solid rope sinks. The ropes and the depth are drawn to scale. The lander, chain and buoys are not.
+Every rope is as long as the depth at high tide plus 20%, so 24 m here, apart from the 2 m between the buoys. Striped rope floats and solid rope sinks. The ropes and the depth are drawn to scale. The lander, chain and buoys are not.
 
 The [deployment video](../deployment.md) shows how to put this rig in the water. Its example is 10 m deep, so its ropes are 12 m.
 

@@ -13,7 +13,7 @@ title: Low Exposure
 
 </div>
 
-Every rope is as long as the depth at high tide plus 20%, so 6 m here. Striped rope floats and solid rope sinks. The ropes and the depth are drawn to scale. The lander, chain and buoy are not.
+Both ropes are as long as the depth at high tide plus 20%, so 6 m here. Striped rope floats and solid rope sinks. The ropes and the depth are drawn to scale. The lander, chain and buoy are not.
 
 This rig has one sinking rope and one buoy in place of the S-shaped rope and two buoys shown in the [deployment video](../deployment.md). It goes in the same way.
 
