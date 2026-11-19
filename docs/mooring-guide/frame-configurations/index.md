@@ -30,7 +30,7 @@ Watch the 75-second [deployment video](../deployment.md), with the same steps in
 
 ## Mooring examples by exposure
 
-Three worked examples, one per exposure rating. Each page contains a cross-section diagram and a full Bill of Materials with current supplier prices (May 2026). Depths are at high tide. Every rope is as long as that depth plus 20%, apart from the 2 m between two buoys.
+Three worked examples, one per exposure rating. Each page contains a cross-section diagram and a Bill of Materials with current supplier prices (May 2026). Depths are at high tide. Every rope is as long as that depth plus 20%, apart from the 2 m between two buoys.
 
 * [Low Exposure](./low-exposure.md): 5 m depth, &lt;2 m wave / &lt;1 m/s
 * [Med Exposure](./med-exposure.md): 10 m depth, &lt;5 m wave / &lt;2 m/s

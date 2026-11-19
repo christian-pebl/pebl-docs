@@ -13,9 +13,9 @@ title: Low Exposure
 
 </div>
 
-Both ropes are as long as the depth at high tide plus 20%, so 6 m here. Striped rope floats and solid rope sinks. The ropes and the depth are drawn to scale. The lander, chain and buoy are not.
+Both ropes are as long as the depth at high tide plus 20%, so 6 m here. Striped rope floats and solid rope sinks. The arrow shows the way the boat drifted as the rig went in, lander first. The ropes and the depth are drawn to scale. The lander, chain and buoy are not.
 
-This rig has one sinking rope and one buoy in place of the S-shaped rope and two buoys shown in the [deployment video](../deployment.md). It goes in the same way.
+This is a lighter rig than the one in the [deployment video](../deployment.md). It has a 10 kg chain, one sinking rope and one buoy, where the video has a 25 kg chain, an S-shaped rope and two buoys. The steps are the same.
 
 ## Bill of Materials for low exposure example
 
@@ -27,7 +27,9 @@ This rig has one sinking rope and one buoy in place of the S-shaped rope and two
 | **Floating ground rope** | 14 mm Polysteel, 6 m<br/>gaelforcemarine.co.uk | £2.12<br/>(Sold in 220 m length at £77.91, £20 shipping) |
 | **Mooring clump chain** | 10 kg Used 42 to 44 mm stud link chain<br/>E.Y.E. Marine Ltd. | £9.50<br/>(£70 shipping) |
 | **Sinking up-line rope** | 14 mm Polysteel Leaded, 6 m<br/>gaelforcemarine.co.uk | £5.68<br/>(Sold in 220 m length at £208.43, £20 shipping) |
-| **Surface buoy** | Polyform A0 Net Buoy 30" diam<br/>gaelforcemarine.co.uk | £20.36<br/>(£7 shipping) |
+| **Surface buoy** | Polyform A0 Net Buoy 30" circ<br/>gaelforcemarine.co.uk | £20.36<br/>(£7 shipping) |
 | **TOTAL** |  | **£117.18 (marginal cost)** |
 
 </div>
+
+The list does not include the bridle, which is two short ropes and a small 2 litre buoy.
