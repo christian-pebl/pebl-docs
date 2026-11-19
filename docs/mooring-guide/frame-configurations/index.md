@@ -30,7 +30,7 @@ Watch the 75-second [deployment video](../deployment.md), with the same steps in
 
 ## Mooring examples by exposure
 
-Three worked examples, one per exposure rating. Each page contains a cross-section diagram and a full Bill of Materials with current supplier prices (May 2026).
+Three worked examples, one per exposure rating. Each page contains a cross-section diagram and a Bill of Materials with current supplier prices (May 2026). Depths are at high tide. Every rope is as long as that depth plus 20%, apart from the 2 m between two buoys.
 
 * [Low Exposure](./low-exposure.md): 5 m depth, &lt;2 m wave / &lt;1 m/s
 * [Med Exposure](./med-exposure.md): 10 m depth, &lt;5 m wave / &lt;2 m/s
@@ -40,9 +40,9 @@ Three worked examples, one per exposure rating. Each page contains a cross-secti
 
 | Exposure | Depth | Wave / Current | Total marginal cost (inc VAT) |
 | --- | --- | --- | --- |
-| **Low** | 5 m | &lt;2 m / &lt;1 m/s | **£128.87** |
-| **Med** | 10 m | &lt;5 m / &lt;2 m/s | **£211.95** |
-| **High** | 20 m | &lt;10 m / &lt;4 m/s | **£302.07** |
+| **Low** | 5 m | &lt;2 m / &lt;1 m/s | **£117.18** |
+| **Med** | 10 m | &lt;5 m / &lt;2 m/s | **£205.25** |
+| **High** | 20 m | &lt;10 m / &lt;4 m/s | **£298.66** |
 
 :::tip
 Marginal cost only. Shipping is shared across components when ordered together (E.Y.E. Marine £70/order; themetalstore £15; Gaelforce £20 per rope coil; Polyform buoys £7).
