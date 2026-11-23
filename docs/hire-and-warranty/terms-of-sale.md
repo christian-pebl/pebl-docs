@@ -65,7 +65,7 @@ Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by 
 
 4.6 CE marking for SubCam 3 and GrowProbe 4 is pending.
 
-4.6 Risk in the kit passes to you on delivery.
+4.7 Risk in the kit passes to you on delivery.
 
 ## 5. Title
 
