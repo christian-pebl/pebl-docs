@@ -8,7 +8,7 @@ sidebar_position: 2
 
 These Terms of Sale govern the purchase of PEBL kit from Plant Ecology Beyond Land (PEBL) CIC ("PEBL", "we", "us"). If you are hiring kit rather than buying it, the [Hire Terms and Conditions](./hire-terms.md) apply instead. Once you own the kit, the [Warranty](./warranty.md) also applies.
 
-**Effective date:** 11 November 2026
+**Effective date:** 26 November 2026
 
 :::info[Buying as a consumer?]
 If you are buying for yourself rather than for a business or other organisation, you have extra legal rights, including a right to cancel within 14 days of delivery and rights if your kit is faulty. Nothing in these Terms affects those rights. [Cancelling as a consumer](./cancellation.md) explains how to cancel, and section 10 has more detail.
@@ -55,7 +55,7 @@ Plant Ecology Beyond Land (PEBL) CIC is a community interest company limited by 
 
 4.1 Orders placed through our website are delivered to UK addresses. For delivery anywhere else, ask us for a quote before you order.
 
-4.2 We dispatch SubCam 3 and its accessories, and GrowProbe turbidity calibration fluid, within 3 weeks of confirming your order. We dispatch GrowProbe 4 within 6 weeks of confirming your order.
+4.2 We dispatch SubCam 3, GrowProbe 4 and their accessories, including GrowProbe turbidity calibration fluid, within 6 weeks of confirming your order.
 
 4.3 We agree the delivery method and address with you, and our confirmation gives the dispatch date.
 
